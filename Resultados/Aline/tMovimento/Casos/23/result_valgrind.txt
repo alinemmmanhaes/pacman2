@@ -1,0 +1,15 @@
+==51505== Memcheck, a memory error detector
+==51505== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==51505== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==51505== Command: Resultados/Aline/tMovimento/prog Resultados/Aline/tMovimento/Casos/23
+==51505== Parent PID: 51504
+==51505== 
+==51505== 
+==51505== HEAP SUMMARY:
+==51505==     in use at exit: 0 bytes in 0 blocks
+==51505==   total heap usage: 34,635 allocs, 34,635 frees, 339,790 bytes allocated
+==51505== 
+==51505== All heap blocks were freed -- no leaks are possible
+==51505== 
+==51505== For lists of detected and suppressed errors, rerun with: -s
+==51505== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
