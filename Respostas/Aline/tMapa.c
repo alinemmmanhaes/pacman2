@@ -128,35 +128,11 @@ int ObtemNumeroMaximoMovimentosMapa(tMapa* mapa){
 }
 
 bool EncontrouComidaMapa(tMapa* mapa, tPosicao* posicao){
-    int l, c;
-    l = ObtemLinhaPosicao(posicao);
-    c = ObtemColunaPosicao(posicao);
-    if(mapa == NULL || mapa->grid == NULL){
-        return false;
-    }
-    if(c >= mapa->nColunas || l >= mapa->nLinhas || c < 0 || l < 0){
-        return false;
-    }
-    if(mapa->grid[l][c] == '*'){
-        return true;
-    }
-    return false;
+    return (ObtemItemMapa(mapa, posicao) == "*");
 }
 
 bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
-    int l, c;
-    l = ObtemLinhaPosicao(posicao);
-    c = ObtemColunaPosicao(posicao);
-    if(mapa == NULL || mapa->grid == NULL){
-        return false;
-    }
-    if(c >= mapa->nColunas || l >= mapa->nLinhas || c < 0 || l < 0){
-        return false;
-    }
-    if(mapa->grid[l][c] == '#'){
-        return true;
-    }
-    return false;
+    return (ObtemItemMapa(mapa, posicao) == "#");
 }
 
 bool AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){
