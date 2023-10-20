@@ -67,7 +67,7 @@ tMapa* CriaMapa(const char* caminhoConfig){
                 p1y = j;
                 flagtunel = 1;
             }
-            if(mapa->grid[i][j] == '@' && flagtunel==1){
+            else if(mapa->grid[i][j] == '@' && flagtunel==1){
                 p2x = i;
                 p2y = j;
                 mapa->tunel = CriaTunel(p1x, p1y, p2x, p2y);
@@ -82,8 +82,8 @@ tMapa* CriaMapa(const char* caminhoConfig){
 
 tPosicao* ObtemPosicaoItemMapa(tMapa* mapa, char item){
     int i, j;
-    for(i=0; i<mapa->nLinhas; i++){
-        for(j=0; j<mapa->nColunas; j++){
+    for(i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
+        for(j=0; j<ObtemNumeroColunasMapa(mapa); j++){
             if(mapa->grid[i][j] == item){
                 tPosicao* posicao;
                 posicao = CriaPosicao(i, j);
@@ -105,7 +105,7 @@ char ObtemItemMapa(tMapa* mapa, tPosicao* posicao){
     if(mapa == NULL || mapa->grid == NULL){
         return '\0';
     }
-    if(c >= mapa->nColunas || l >= mapa->nLinhas || c < 0 || l < 0){
+    if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return '\0';
     }
     return mapa->grid[l][c];
@@ -128,10 +128,28 @@ int ObtemNumeroMaximoMovimentosMapa(tMapa* mapa){
 }
 
 bool EncontrouComidaMapa(tMapa* mapa, tPosicao* posicao){
+    int l, c;
+    l = ObtemLinhaPosicao(posicao);
+    c = ObtemColunaPosicao(posicao);
+    if(mapa == NULL || mapa->grid == NULL){
+        return false;
+    }
+    if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
+        return false;
+    }
     return (ObtemItemMapa(mapa, posicao) == "*");
 }
 
 bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
+    int l, c;
+    l = ObtemLinhaPosicao(posicao);
+    c = ObtemColunaPosicao(posicao);
+    if(mapa == NULL || mapa->grid == NULL){
+        return false;
+    }
+    if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
+        return false;
+    }
     return (ObtemItemMapa(mapa, posicao) == "#");
 }
 
@@ -142,7 +160,7 @@ bool AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){
     if(mapa == NULL || mapa->grid == NULL){
         return false;
     }
-    if(c >= mapa->nColunas || l >= mapa->nLinhas || c < 0 || l < 0){
+    if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return false;
     }
     mapa->grid[l][c] = item;
@@ -169,10 +187,12 @@ void EntraTunelMapa(tMapa* mapa, tPosicao* posicao){
 
 void DesalocaMapa(tMapa* mapa){
     int i;
-    for(i=0; i<mapa->nLinhas; i++){
-        free(mapa->grid[i]);
+    if(mapa != NULL){
+        for(i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
+            free(mapa->grid[i]);
+        }
+        free(mapa->grid);
+        DesalocaTunel(mapa->tunel);
+        free(mapa);
     }
-    free(mapa->grid);
-    DesalocaTunel(mapa->tunel);
-    free(mapa);
 }
