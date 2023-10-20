@@ -29,7 +29,7 @@ tMapa* CriaMapa(const char* caminhoConfig){
             break;
         }
         j++;
-        mapa->grid[i-1] = realloc(mapa->grid[0], j*sizeof(char));
+        mapa->grid[i-1] = realloc(mapa->grid[i-1], j*sizeof(char));
         mapa->grid[i-1][j-1] = c;
     }
     mapa->nColunas = j;
@@ -50,8 +50,10 @@ tMapa* CriaMapa(const char* caminhoConfig){
             mapa->grid[i-1][j-1] = c;
         }
     }
-    i--;
-    mapa->grid = realloc(mapa->grid, i*sizeof(char*));
+    if(c=='\n'){
+        i--;
+        mapa->grid = realloc(mapa->grid, i*sizeof(char*));
+    }
     mapa->nLinhas = i;
 
     mapa->nFrutasAtual = 0;
