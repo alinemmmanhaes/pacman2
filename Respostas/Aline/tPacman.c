@@ -64,6 +64,7 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasEsquerda++;
+            AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
@@ -77,6 +78,7 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasDireita++;
+            AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
@@ -84,12 +86,13 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         pacman->nMovimentosDireita++;
     }
     else if(comando == MOV_CIMA){
-        pacman2->posicaoAtual->linha++;
+        pacman2->posicaoAtual->linha--;
         if(EncontrouParedeMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nColisoesParedeCima++;
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasCima++;
+            AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
@@ -97,12 +100,13 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         pacman->nMovimentosCima++;
     }
     else if(comando == MOV_BAIXO){
-        pacman2->posicaoAtual->linha--;
+        pacman2->posicaoAtual->linha++;
         if(EncontrouParedeMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nColisoesParedeBaixo++;
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasBaixo++;
+            AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
@@ -186,10 +190,10 @@ void DesalocaPacman(tPacman* pacman){
 
 int ObtemNumeroAtualMovimentosPacman(tPacman* pacman){
     int total=0;
-    total += pacman->nMovimentosBaixo;
-    total += pacman->nMovimentosCima;
-    total += pacman->nMovimentosDireita;
-    total += pacman->nMovimentosEsquerda;
+    total += ObtemNumeroMovimentosBaixoPacman(pacman);
+    total += ObtemNumeroMovimentosCimaPacman(pacman);
+    total += ObtemNumeroMovimentosDireitaPacman(pacman);
+    total += ObtemNumeroMovimentosEsquerdaPacman(pacman);
     return total;
 }
 
@@ -197,3 +201,72 @@ int ObtemNumeroMovimentosSemPontuarPacman(tPacman* pacman){
     return ObtemNumeroAtualMovimentosPacman(pacman) - ObtemPontuacaoAtualPacman(pacman);
 }
 
+int ObtemNumeroColisoesParedePacman(tPacman* pacman){
+    int total=0;
+    total += ObtemNumeroColisoesParedeBaixoPacman(pacman);
+    total += ObtemNumeroColisoesParedeCimaPacman(pacman);
+    total += ObtemNumeroColisoesParedeDireitaPacman(pacman);
+    total += ObtemNumeroColisoesParedeEsquerdaPacman(pacman);
+    return total;
+}
+
+int ObtemNumeroMovimentosBaixoPacman(tPacman* pacman){
+    return pacman->nMovimentosBaixo;
+}
+
+int ObtemNumeroFrutasComidasBaixoPacman(tPacman* pacman){
+    return pacman->nFrutasComidasBaixo;
+}
+
+int ObtemNumeroColisoesParedeBaixoPacman(tPacman* pacman){
+    return pacman->nColisoesParedeBaixo;
+}
+
+int ObtemNumeroMovimentosCimaPacman(tPacman* pacman){
+    return pacman->nMovimentosCima;
+}
+
+int ObtemNumeroFrutasComidasCimaPacman(tPacman* pacman){
+    return pacman->nFrutasComidasCima;
+}
+
+int ObtemNumeroColisoesParedeCimaPacman(tPacman* pacman){
+    return pacman->nColisoesParedeCima;
+}
+
+int ObtemNumeroMovimentosEsquerdaPacman(tPacman* pacman){
+    return pacman->nMovimentosEsquerda;
+}
+
+int ObtemNumeroFrutasComidasEsquerdaPacman(tPacman* pacman){
+    return pacman->nFrutasComidasEsquerda;
+}
+
+int ObtemNumeroColisoesParedeEsquerdaPacman(tPacman* pacman){
+    return pacman->nColisoesParedeEsquerda;
+}
+
+int ObtemNumeroMovimentosDireitaPacman(tPacman* pacman){
+    return pacman->nMovimentosDireita;
+}
+
+int ObtemNumeroFrutasComidasDireitaPacman(tPacman* pacman){
+    return pacman->nFrutasComidasDireita;
+}
+
+int ObtemNumeroColisoesParedeDireitaPacman(tPacman* pacman){
+    return pacman->nColisoesParedeDireita;
+}
+
+int ObtemNumeroMovimentosSignificativosPacman(tPacman* pacman){
+    return pacman->nMovimentosSignificativos;
+}
+
+int ObtemPontuacaoAtualPacman(tPacman* pacman){
+    int total = 0;
+    total += ObtemNumeroFrutasComidasBaixoPacman(pacman);
+    total += ObtemNumeroFrutasComidasCimaPacman(pacman);
+    total += ObtemNumeroFrutasComidasDireitaPacman(pacman);
+    total += ObtemNumeroFrutasComidasEsquerdaPacman(pacman);
+    return total;
+}
