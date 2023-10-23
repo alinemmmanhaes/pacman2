@@ -135,7 +135,7 @@ Estado do jogo apos o movimento 'w':
 #   * I #
 # ### * #
 #     *>#
-# #   #*#
+# #   # #
 # ## ## #
 #  #  # #
 #     C #
@@ -147,7 +147,7 @@ Estado do jogo apos o movimento 'a':
 #   *   #
 # ### I #
 #     > #
-# #   #*#
+# #   # #
 # ## ## #
 #  #  # #
 #      C#
@@ -159,7 +159,7 @@ Estado do jogo apos o movimento 'd':
 #   *   #
 # ### * #
 #     I>#
-# #   #*#
+# #   # #
 # ## ## #
 #  #  # #
 #     C #
@@ -170,8 +170,8 @@ Estado do jogo apos o movimento 'w':
 #########
 #   *   #
 # ### I>#
-#     * #
-# #   #*#
+#       #
+# #   # #
 # ## ## #
 #  #  # #
 #    C  #
@@ -182,8 +182,8 @@ Estado do jogo apos o movimento 'd':
 #########
 #   * I #
 # ### *>#
-#     * #
-# #   #*#
+#       #
+# #   # #
 # ## ## #
 #  #  # #
 #   C   #
@@ -194,8 +194,8 @@ Estado do jogo apos o movimento 'a':
 #########
 #   *   #
 # ### I #
-#     * #
-# #   #*#
+#       #
+# #   # #
 # ## ## #
 #  #  # #
 #  C    #

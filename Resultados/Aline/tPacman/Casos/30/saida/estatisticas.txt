@@ -1,5 +1,5 @@
 Numero de movimentos: 210
-Numero de movimentos sem pontuar: 184
+Numero de movimentos sem pontuar: 204
 Numero de colisoes com parede: 70
 Numero de movimentos para baixo: 53
 Numero de movimentos para cima: 48

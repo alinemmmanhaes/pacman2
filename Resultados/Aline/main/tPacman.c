@@ -27,7 +27,7 @@ tPacman* CriaPacman(tPosicao* posicao){
     pacman->nColisoesParedeEsquerda = 0;
 
     pacman->nMovimentosSignificativos = 0;
-    pacman->historicoDeMovimentosSignificativos = malloc(sizeof(tMovimento*));
+    pacman->historicoDeMovimentosSignificativos = malloc(0*sizeof(tMovimento*));
     pacman->nLinhasTrilha = 0;
     pacman->nColunasTrilha = 0;
     pacman->trilha = NULL;
@@ -66,11 +66,13 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasEsquerda++;
+            AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman2), ' ');
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
+        pacman2->posicaoAtual->coluna++;
         pacman->nMovimentosEsquerda++;
     }
     else if(comando == MOV_DIREITA){
@@ -80,11 +82,13 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasDireita++;
+            AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman2), ' ');
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
+        pacman2->posicaoAtual->coluna--;
         pacman->nMovimentosDireita++;
     }
     else if(comando == MOV_CIMA){
@@ -94,11 +98,13 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasCima++;
+            AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman2), ' ');
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
+        pacman2->posicaoAtual->linha++;
         pacman->nMovimentosCima++;
     }
     else if(comando == MOV_BAIXO){
@@ -108,12 +114,21 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         else if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman2))){
             pacman->nFrutasComidasBaixo++;
+            AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman2), ' ');
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), ObtemPosicaoPacman(pacman2));
         }
+        pacman2->posicaoAtual->linha--;
         pacman->nMovimentosBaixo++;
+    }
+    if(PossuiTunelMapa(mapa)){
+        if(!SaoIguaisPosicao(ObtemPosicaoPacman(pacman2), ObtemPosicaoPacman(pacman))){
+            if(AcessouTunelMapa(mapa, ObtemPosicaoPacman(pacman))){
+                EntraTunelMapa(mapa, pacman->posicaoAtual);
+            }
+        }
     }
     DesalocaPacman(pacman2);
 }
@@ -200,7 +215,7 @@ int ObtemNumeroAtualMovimentosPacman(tPacman* pacman){
 }
 
 int ObtemNumeroMovimentosSemPontuarPacman(tPacman* pacman){
-    return ObtemNumeroAtualMovimentosPacman(pacman) - ObtemPontuacaoAtualPacman(pacman);
+    return (ObtemNumeroAtualMovimentosPacman(pacman) - ObtemPontuacaoAtualPacman(pacman));
 }
 
 int ObtemNumeroColisoesParedePacman(tPacman* pacman){

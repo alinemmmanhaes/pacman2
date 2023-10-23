@@ -1,71 +1,71 @@
-==132328== Memcheck, a memory error detector
-==132328== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==132328== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==132328== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/14
-==132328== Parent PID: 132327
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x10CCE8: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==132328==    by 0x10CCF9: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x10CD30: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==132328==    by 0x10CD41: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x10CCE8: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==132328==    by 0x10CCF9: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x10CD30: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== Conditional jump or move depends on uninitialised value(s)
-==132328==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==132328==    by 0x10CD41: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==132328== 
-==132328== 
-==132328== HEAP SUMMARY:
-==132328==     in use at exit: 472 bytes in 1 blocks
-==132328==   total heap usage: 35,865 allocs, 35,864 frees, 348,041 bytes allocated
-==132328== 
-==132328== LEAK SUMMARY:
-==132328==    definitely lost: 0 bytes in 0 blocks
-==132328==    indirectly lost: 0 bytes in 0 blocks
-==132328==      possibly lost: 0 bytes in 0 blocks
-==132328==    still reachable: 472 bytes in 1 blocks
-==132328==         suppressed: 0 bytes in 0 blocks
-==132328== Reachable blocks (those to which a pointer was found) are not shown.
-==132328== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==132328== 
-==132328== Use --track-origins=yes to see where uninitialised values come from
-==132328== For lists of detected and suppressed errors, rerun with: -s
-==132328== ERROR SUMMARY: 888 errors from 8 contexts (suppressed: 0 from 0)
+==441202== Memcheck, a memory error detector
+==441202== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==441202== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==441202== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/14
+==441202== Parent PID: 441201
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x10CE25: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10CA2F: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==441202==    by 0x10CE36: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10CA2F: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x10CE6D: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10CA2F: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==441202==    by 0x10CE7E: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10CA2F: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x10CE25: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==441202==    by 0x10CE36: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x10CE6D: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== Conditional jump or move depends on uninitialised value(s)
+==441202==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==441202==    by 0x10CE7E: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==441202== 
+==441202== 
+==441202== HEAP SUMMARY:
+==441202==     in use at exit: 472 bytes in 1 blocks
+==441202==   total heap usage: 38,401 allocs, 38,400 frees, 369,921 bytes allocated
+==441202== 
+==441202== LEAK SUMMARY:
+==441202==    definitely lost: 0 bytes in 0 blocks
+==441202==    indirectly lost: 0 bytes in 0 blocks
+==441202==      possibly lost: 0 bytes in 0 blocks
+==441202==    still reachable: 472 bytes in 1 blocks
+==441202==         suppressed: 0 bytes in 0 blocks
+==441202== Reachable blocks (those to which a pointer was found) are not shown.
+==441202== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==441202== 
+==441202== Use --track-origins=yes to see where uninitialised values come from
+==441202== For lists of detected and suppressed errors, rerun with: -s
+==441202== ERROR SUMMARY: 952 errors from 8 contexts (suppressed: 0 from 0)
