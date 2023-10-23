@@ -1,0 +1,90 @@
+==135137== Memcheck, a memory error detector
+==135137== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==135137== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==135137== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/20
+==135137== Parent PID: 135136
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x10CCE8: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10CCF9: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x10CD30: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10CD41: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10C8F2: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x10CCE8: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10CCF9: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x10CD30: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Conditional jump or move depends on uninitialised value(s)
+==135137==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10CD41: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== Invalid free() / delete / delete[] / realloc()
+==135137==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10968E: DesalocaResumo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B829: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==  Address 0x4d16b70 is 0 bytes inside a block of size 60 free'd
+==135137==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10CCD4: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B7C1: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==  Block was alloc'd at
+==135137==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==135137==    by 0x10C28F: CriaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10CC5E: InsereNovoMovimentoSignificativoPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B4FB: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==135137== 
+==135137== 
+==135137== HEAP SUMMARY:
+==135137==     in use at exit: 472 bytes in 1 blocks
+==135137==   total heap usage: 31,823 allocs, 31,823 frees, 318,629 bytes allocated
+==135137== 
+==135137== LEAK SUMMARY:
+==135137==    definitely lost: 0 bytes in 0 blocks
+==135137==    indirectly lost: 0 bytes in 0 blocks
+==135137==      possibly lost: 0 bytes in 0 blocks
+==135137==    still reachable: 472 bytes in 1 blocks
+==135137==         suppressed: 0 bytes in 0 blocks
+==135137== Reachable blocks (those to which a pointer was found) are not shown.
+==135137== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==135137== 
+==135137== Use --track-origins=yes to see where uninitialised values come from
+==135137== For lists of detected and suppressed errors, rerun with: -s
+==135137== ERROR SUMMARY: 777 errors from 9 contexts (suppressed: 0 from 0)

@@ -1,26 +1,15 @@
-==54231== Memcheck, a memory error detector
-==54231== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==54231== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==54231== Command: Resultados/Aline/tMapa/prog Resultados/Aline/tMapa/Casos/08
-==54231== Parent PID: 54230
-==54231== 
-==54231== 
-==54231== HEAP SUMMARY:
-==54231==     in use at exit: 10 bytes in 1 blocks
-==54231==   total heap usage: 54,083 allocs, 54,082 frees, 503,510 bytes allocated
-==54231== 
-==54231== 10 bytes in 1 blocks are definitely lost in loss record 1 of 1
-==54231==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==54231==    by 0x10BB92: CriaMapa (in /home/ammmanhaes/pacman2/Resultados/Aline/tMapa/prog)
-==54231==    by 0x10A747: CriaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tMapa/prog)
-==54231==    by 0x10B89F: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tMapa/prog)
-==54231== 
-==54231== LEAK SUMMARY:
-==54231==    definitely lost: 10 bytes in 1 blocks
-==54231==    indirectly lost: 0 bytes in 0 blocks
-==54231==      possibly lost: 0 bytes in 0 blocks
-==54231==    still reachable: 0 bytes in 0 blocks
-==54231==         suppressed: 0 bytes in 0 blocks
-==54231== 
-==54231== For lists of detected and suppressed errors, rerun with: -s
-==54231== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==141795== Memcheck, a memory error detector
+==141795== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==141795== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==141795== Command: Resultados/Aline/tMapa/prog Resultados/Aline/tMapa/Casos/08
+==141795== Parent PID: 141794
+==141795== 
+==141795== 
+==141795== HEAP SUMMARY:
+==141795==     in use at exit: 0 bytes in 0 blocks
+==141795==   total heap usage: 54,083 allocs, 54,083 frees, 503,510 bytes allocated
+==141795== 
+==141795== All heap blocks were freed -- no leaks are possible
+==141795== 
+==141795== For lists of detected and suppressed errors, rerun with: -s
+==141795== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

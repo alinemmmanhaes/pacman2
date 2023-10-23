@@ -52,6 +52,7 @@ tMapa* CriaMapa(const char* caminhoConfig){
     }
     if(c=='\n'){
         i--;
+        free(mapa->grid[i]);
         mapa->grid = realloc(mapa->grid, i*sizeof(char*));
     }
     mapa->nLinhas = i;
@@ -139,7 +140,7 @@ bool EncontrouComidaMapa(tMapa* mapa, tPosicao* posicao){
     if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return false;
     }
-    return (ObtemItemMapa(mapa, posicao) == "*");
+    return (ObtemItemMapa(mapa, posicao) == '*');
 }
 
 bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
@@ -152,7 +153,7 @@ bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
     if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return false;
     }
-    return (ObtemItemMapa(mapa, posicao) == "#");
+    return (ObtemItemMapa(mapa, posicao) == '#');
 }
 
 bool AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){

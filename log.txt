@@ -15,7 +15,7 @@ CRIANDO O DIRETÓRIO DE RESULTADO PARA Aline:
  - Arquivos criados: ok!
 
 CHECKANDO OS ARQUIVOS DO ALUNO:
- - Arquivo esperado 'Respostas/Aline/tPacman.c' não encontrado!
+ - Arquivo esperado 'Respostas/Aline/tPacman.c' encontrado!
  - Arquivo esperado 'Respostas/Aline/tPacman.h' encontrado!
  - Arquivo esperado 'Respostas/Aline/tMapa.c' encontrado!
  - Arquivo esperado 'Respostas/Aline/tMapa.h' encontrado!
@@ -66,8 +66,6 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Arquivos copiados: ok!
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
- - Erro de compilação! Verifique os arquivos da pasta tPacman.
- - Arquivos Compilados: Erro!: 1 arquivos com erros de compilacao.
  - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Aline:
  - Copiando o Gabarito-obj/tPacman.o para a pasta Resultados/Aline/tMapa
  - Copiando o Gabarito-obj/tPacman.o para a pasta Resultados/Aline/tMovimento
@@ -104,7 +102,7 @@ COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
 LINKANDO OS ARQUIVOS COMPILADOS:
  - Pasta tPacman:
  - Gerando o binário prog linkando com o(s) arquivo(s) tPacman/*.o
- - Arquivos Linkados: Erro! Binário prog não gerado.
+ - Arquivos Linkados: Ok! Binário prog gerado com sucesso.
  - Arquivo de output gerado: Resultados/Aline/tPacman/result_linking.txt
  - Pasta tMapa:
  - Gerando o binário prog linkando com o(s) arquivo(s) tMapa/*.o
@@ -130,252 +128,282 @@ LINKANDO OS ARQUIVOS COMPILADOS:
  - Gerando o binário prog linkando com o(s) arquivo(s) main/*.o
  - Arquivos Linkados: Erro! Binário prog não gerado.
  - Arquivo de output gerado: Resultados/Aline/main/result_linking.txt
- - Arquivos Linkados: Erro! 3 arquivos com erros de linkagem.
+ - Arquivos Linkados: Erro! 2 arquivos com erros de linkagem.
 
 EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta tPacman / Caso 01:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/01/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/01/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/01/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/01/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/01/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 27,980, frees: 27,979, errors: 680 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/01/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 02:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/02/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/02/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/02/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/02/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/02/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1,821, frees: 1,821, errors: 137 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/02/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 03:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/03/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/03/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/03/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/03/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/03/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1,047,158, frees: 1,047,157, errors: 4584 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/03/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 04:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/04/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/04/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/04/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/04/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/04/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 298,118, frees: 298,117, errors: 3824 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/04/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 05:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/05/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/05/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/05/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/05/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/05/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 1,031,786, frees: 1,031,785, errors: 6608 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/05/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 06:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/06/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/06/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/06/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/06/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/06/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 163,948, frees: 163,947, errors: 2520 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/06/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 07:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/07/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/07/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/07/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/07/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/07/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 6,254, frees: 6,253, errors: 440 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/07/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 08:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/08/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/08/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/08/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/08/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/08/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 30,588, frees: 30,587, errors: 912 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/08/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 09:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/09/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/09/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/09/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/09/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/09/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 644,613, frees: 644,612, errors: 5632 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/09/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 10:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/10/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/10/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/10/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/10/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/10/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 55,329, frees: 55,328, errors: 1168 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/10/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 11:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/11/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/11/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/11/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/11/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/11/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 934,021, frees: 934,020, errors: 7360 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/11/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 12:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/12/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/12/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/12/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/12/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/12/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 50,330, frees: 50,329, errors: 1000 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/12/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 13:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/13/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/13/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/13/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/13/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/13/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 54,347, frees: 54,347, errors: 825 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/13/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 14:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/14/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/14/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/14/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/14/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/14/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 35,865, frees: 35,864, errors: 888 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/14/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 15:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/15/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/15/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/15/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/15/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/15/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 22,178, frees: 22,178, errors: 361 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/15/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 16:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/16/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/16/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/16/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/16/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/16/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 4,770, frees: 4,769, errors: 208 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/16/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 17:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/17/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/17/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/17/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/17/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/17/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 8,657, frees: 8,656, errors: 394 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/17/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 18:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/18/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/18/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/18/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/18/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/18/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 15,074, frees: 15,074, errors: 681 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/18/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 19:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/19/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/19/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/19/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/19/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/19/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 53,267, frees: 53,267, errors: 889 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/19/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 20:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/20/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/20/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/20/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/20/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/20/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 31,823, frees: 31,823, errors: 777 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/20/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 21:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/21/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/21/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/21/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/21/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/21/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 8,624, frees: 8,624, errors: 345 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/21/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 22:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/22/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/22/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/22/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/22/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/22/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 31,817, frees: 31,816, errors: 776 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/22/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 23:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/23/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/23/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/23/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/23/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/23/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 34,545, frees: 34,544, errors: 640 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/23/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 24:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/24/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/24/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/24/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/24/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/24/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 18,920, frees: 18,919, errors: 608 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/24/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 25:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/25/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/25/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/25/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/25/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/25/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 134,992, frees: 134,991, errors: 2056 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/25/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 26:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/26/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/26/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/26/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/26/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/26/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 75,914, frees: 75,913, errors: 1272 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/26/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 27:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/27/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/27/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/27/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/27/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/27/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 9,318, frees: 9,318, errors: 161 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/27/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 28:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/28/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/28/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/28/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/28/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/28/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 78,237, frees: 78,237, errors: 953 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/28/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 29:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/29/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/29/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/29/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/29/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/29/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 79,292, frees: 79,292, errors: 673 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/29/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tPacman / Caso 30:
- - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/30/saida/estatisticas.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/30/saida/inicializacao.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/30/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/30/saida/resumo.txt, considerando resultado incorreto!
+ - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/30/result_valgrind.txt.
+ - Valgrind: Incorreto! allocs: 110,505, frees: 110,504, errors: 1680 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Incorreto!
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Incorreto!
+ - Resultado para o resumo.txt: Incorreto!
  - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tPacman/Casos/30/saida/trilha.txt, considerando resultado incorreto!
+ - Resultado para o trilha.txt: Incorreto!
  - Pasta tMapa / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/01/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 34,557, frees: 34,556, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 34,557, frees: 34,557, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -384,7 +412,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/02/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,766, frees: 1,765, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 1,766, frees: 1,766, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -393,7 +421,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/03/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,317,536, frees: 1,317,535, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 1,317,536, frees: 1,317,536, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -402,7 +430,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/04/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 397,235, frees: 397,234, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 397,235, frees: 397,235, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -411,7 +439,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/05/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,430,055, frees: 1,430,054, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 1,430,055, frees: 1,430,055, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -420,7 +448,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/06/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 192,671, frees: 192,670, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 192,671, frees: 192,671, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -429,7 +457,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/07/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8,938, frees: 8,937, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 8,938, frees: 8,938, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -438,7 +466,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/08/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 54,083, frees: 54,082, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 54,083, frees: 54,083, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -447,7 +475,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/09/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 749,237, frees: 749,236, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 749,237, frees: 749,237, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -456,7 +484,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 116,044, frees: 116,043, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 116,044, frees: 116,044, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -465,7 +493,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/11/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 933,534, frees: 933,533, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 933,534, frees: 933,534, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -474,7 +502,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/12/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 58,029, frees: 58,028, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 58,029, frees: 58,029, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -483,7 +511,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/13/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 54,007, frees: 54,006, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 54,007, frees: 54,007, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -492,7 +520,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/14/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 38,248, frees: 38,247, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 38,248, frees: 38,248, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -501,7 +529,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/15/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 21,819, frees: 21,818, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 21,819, frees: 21,819, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -510,61 +538,61 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/16/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 7,036, frees: 7,035, errors: 1 | Desconto do valgrind 30.00%
- - Resultado para o estatisticas.txt: Incorreto!
+ - Valgrind: Ok! allocs: 8,407, frees: 8,407, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Incorreto!
- - Resultado para o resumo.txt: Incorreto!
- - Resultado para o saida.txt: Incorreto!
- - Resultado para o trilha.txt: Incorreto!
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Ok! Peso: 1.2
+ - Resultado para o saida.txt: Ok! Peso: 1.8
+ - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/17/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8,568, frees: 8,567, errors: 3 | Desconto do valgrind 30.00%
- - Resultado para o estatisticas.txt: Incorreto!
+ - Valgrind: Ok! allocs: 5,509, frees: 5,509, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Incorreto!
- - Resultado para o resumo.txt: Incorreto!
- - Resultado para o saida.txt: Incorreto!
- - Resultado para o trilha.txt: Incorreto!
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Ok! Peso: 1.2
+ - Resultado para o saida.txt: Ok! Peso: 1.8
+ - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/18/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 4,123, frees: 4,055, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/tMapa/Casos/18/saida/estatisticas.txt, considerando resultado incorreto!
- - Resultado para o inicializacao.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tMapa/Casos/18/saida/ranking.txt, considerando resultado incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tMapa/Casos/18/saida/resumo.txt, considerando resultado incorreto!
- - Resultado para o saida.txt: Incorreto!
- - O aluno não gerou o arquivo de saída Resultados/Aline/tMapa/Casos/18/saida/trilha.txt, considerando resultado incorreto!
+ - Valgrind: Ok! allocs: 15,477, frees: 15,477, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.2
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Ok! Peso: 1.2
+ - Resultado para o saida.txt: Ok! Peso: 1.8
+ - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/19/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 52,934, frees: 52,933, errors: 1 | Desconto do valgrind 30.00%
- - Resultado para o estatisticas.txt: Incorreto!
+ - Valgrind: Ok! allocs: 58,605, frees: 58,605, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Incorreto!
- - Resultado para o resumo.txt: Incorreto!
- - Resultado para o saida.txt: Incorreto!
- - Resultado para o trilha.txt: Incorreto!
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Ok! Peso: 1.2
+ - Resultado para o saida.txt: Ok! Peso: 1.8
+ - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/20/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 31,608, frees: 31,607, errors: 1 | Desconto do valgrind 30.00%
- - Resultado para o estatisticas.txt: Incorreto!
+ - Valgrind: Ok! allocs: 42,232, frees: 42,232, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Incorreto!
- - Resultado para o resumo.txt: Incorreto!
- - Resultado para o saida.txt: Incorreto!
- - Resultado para o trilha.txt: Incorreto!
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Ok! Peso: 1.2
+ - Resultado para o saida.txt: Ok! Peso: 1.8
+ - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/21/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8,518, frees: 8,517, errors: 1 | Desconto do valgrind 30.00%
- - Resultado para o estatisticas.txt: Incorreto!
+ - Valgrind: Ok! allocs: 11,006, frees: 11,006, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Incorreto!
- - Resultado para o resumo.txt: Incorreto!
- - Resultado para o saida.txt: Incorreto!
- - Resultado para o trilha.txt: Incorreto!
+ - Resultado para o ranking.txt: Ok! Peso: 2.0
+ - Resultado para o resumo.txt: Ok! Peso: 1.2
+ - Resultado para o saida.txt: Ok! Peso: 1.8
+ - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/22/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 33,273, frees: 33,272, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 33,273, frees: 33,273, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -573,7 +601,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/23/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 34,278, frees: 34,277, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 34,278, frees: 34,278, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -582,7 +610,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/24/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 20,959, frees: 20,958, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 20,959, frees: 20,959, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -591,7 +619,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/25/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 134,646, frees: 134,645, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 134,646, frees: 134,646, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -600,7 +628,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/26/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 75,574, frees: 75,573, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 75,574, frees: 75,574, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -609,7 +637,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/27/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8,967, frees: 8,966, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 8,967, frees: 8,967, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -618,7 +646,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/28/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 77,762, frees: 77,761, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 77,762, frees: 77,762, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -627,7 +655,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/29/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 78,523, frees: 78,522, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 78,523, frees: 78,523, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -636,7 +664,7 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.8
  - Pasta tMapa / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/30/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 110,197, frees: 110,196, errors: 1 | Desconto do valgrind 30.00%
+ - Valgrind: Ok! allocs: 110,197, frees: 110,197, errors: 0 | Desconto do valgrind: 0.0%
  - Resultado para o estatisticas.txt: Ok! Peso: 2.0
  - Resultado para o inicializacao.txt: Ok! Peso: 1.2
  - Resultado para o ranking.txt: Ok! Peso: 2.0
@@ -1941,24 +1969,24 @@ RESULTADOS FINAIS
 ----------------------------------------------------------------------------
 Nome 0: Aline
  - Resumo dos Resultados:
- - Resumo das Compilações: 6 compilações corretas de 7 no total
- - Resumo das Linkagens: 4 linkagens corretas de 7 no total
+ - Resumo das Compilações: 7 compilações corretas de 7 no total
+ - Resumo das Linkagens: 5 linkagens corretas de 7 no total
  - Valgrinds Corretos tPacman: 0 valgrinds corretos de 30 (teve desconto na nota para a pasta tPacman, olhar detalhamento nos prints acima!)
- - Valgrinds Corretos tMapa: 0 valgrinds corretos de 30 (teve desconto na nota para a pasta tMapa, olhar detalhamento nos prints acima!)
+ - Valgrinds Corretos tMapa: 30 valgrinds corretos de 30 (não teve desconto na nota)
  - Valgrinds Corretos tMovimento: 30 valgrinds corretos de 30 (não teve desconto na nota)
  - Valgrinds Corretos tTunel: 30 valgrinds corretos de 30 (não teve desconto na nota)
  - Valgrinds Corretos tPosicao: 30 valgrinds corretos de 30 (não teve desconto na nota)
  - Valgrinds Corretos completo: 0 valgrinds corretos de 30 (teve desconto na nota para a pasta completo, olhar detalhamento nos prints acima!)
  - Valgrinds Corretos main: 0 valgrinds corretos de 30 (teve desconto na nota para a pasta main, olhar detalhamento nos prints acima!)
  - Cômputo final das Notas:
- - Pasta tPacman (peso 2.5): 0 resultados corretos de 180 / Nota 0
- - Pasta tMapa (peso 2.5): 149 resultados corretos de 180 / Nota 1.43
+ - Pasta tPacman (peso 2.5): 36 resultados corretos de 180 / Nota .28
+ - Pasta tMapa (peso 2.5): 180 resultados corretos de 180 / Nota 2.50
  - Pasta tMovimento (peso 1.0): 180 resultados corretos de 180 / Nota 1.00
  - Pasta tTunel (peso 1.0): 180 resultados corretos de 180 / Nota 1.00
  - Pasta tPosicao (peso 1.0): 180 resultados corretos de 180 / Nota 1.00
  - Pasta completo (peso 1.0): 0 resultados corretos de 180 / Nota 0
  - Pasta main (peso 1.0): 0 resultados corretos de 180 / Nota 0
- - Nota Final Aline: 4.43
+ - Nota Final Aline: 5.78
 
 ----------------------------------------------------------------------------
 

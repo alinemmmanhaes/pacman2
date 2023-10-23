@@ -2,19 +2,13 @@ Movimento 4 (d) pegou comida
 Movimento 8 (w) pegou comida
 Movimento 9 (w) pegou comida
 Movimento 16 (d) colidiu com a parede
-Movimento 23 (d) colidiu com a parede
-Movimento 24 (d) colidiu com a parede
-Movimento 25 (s) colidiu com a parede
-Movimento 26 (s) colidiu com a parede
-Movimento 27 (s) colidiu com a parede
-Movimento 28 (d) colidiu com a parede
-Movimento 29 (d) colidiu com a parede
-Movimento 30 (d) colidiu com a parede
-Movimento 31 (d) colidiu com a parede
-Movimento 32 (d) colidiu com a parede
-Movimento 33 (s) colidiu com a parede
-Movimento 34 (s) colidiu com a parede
-Movimento 35 (s) colidiu com a parede
-Movimento 36 (s) colidiu com a parede
+Movimento 24 (d) pegou comida
+Movimento 25 (s) pegou comida
+Movimento 27 (s) pegou comida
+Movimento 31 (d) pegou comida
+Movimento 33 (s) pegou comida
 Movimento 37 (s) colidiu com a parede
-Movimento 43 (d) fim de jogo por encostar em um fantasma
+Movimento 41 (a) pegou comida
+Movimento 51 (w) pegou comida
+Movimento 54 (a) pegou comida
+Movimento 56 (a) pegou comida
