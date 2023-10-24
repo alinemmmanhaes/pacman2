@@ -1,0 +1,14 @@
+tFantasma.c: In function ‘AndaFantasmaHorizontal’:
+tFantasma.c:65:12: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
+   65 |     return fantasma;
+      |            ^~~~~~~~
+tFantasma.c:47:6: note: declared here
+   47 | void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa){
+      |      ^~~~~~~~~~~~~~~~~~~~~~
+tFantasma.c: In function ‘AndaFantasmaVertical’:
+tFantasma.c:86:12: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
+   86 |     return fantasma;
+      |            ^~~~~~~~
+tFantasma.c:68:6: note: declared here
+   68 | void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
+      |      ^~~~~~~~~~~~~~~~~~~~
