@@ -1,0 +1,15 @@
+==295410== Memcheck, a memory error detector
+==295410== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==295410== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==295410== Command: Resultados/Aline/tMapa/prog Resultados/Aline/tMapa/Casos/07
+==295410== Parent PID: 295409
+==295410== 
+==295410== 
+==295410== HEAP SUMMARY:
+==295410==     in use at exit: 0 bytes in 0 blocks
+==295410==   total heap usage: 8,938 allocs, 8,938 frees, 122,976 bytes allocated
+==295410== 
+==295410== All heap blocks were freed -- no leaks are possible
+==295410== 
+==295410== For lists of detected and suppressed errors, rerun with: -s
+==295410== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

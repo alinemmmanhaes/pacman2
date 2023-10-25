@@ -1,0 +1,15 @@
+==300252== Memcheck, a memory error detector
+==300252== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==300252== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==300252== Command: Resultados/Aline/tMovimento/prog Resultados/Aline/tMovimento/Casos/01
+==300252== Parent PID: 300251
+==300252== 
+==300252== 
+==300252== HEAP SUMMARY:
+==300252==     in use at exit: 0 bytes in 0 blocks
+==300252==   total heap usage: 34,839 allocs, 34,839 frees, 342,888 bytes allocated
+==300252== 
+==300252== All heap blocks were freed -- no leaks are possible
+==300252== 
+==300252== For lists of detected and suppressed errors, rerun with: -s
+==300252== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

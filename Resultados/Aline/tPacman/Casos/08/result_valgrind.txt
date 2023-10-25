@@ -1,35 +1,15 @@
-==252124== Memcheck, a memory error detector
-==252124== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==252124== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==252124== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/08
-==252124== Parent PID: 252123
-==252124== 
-==252124== Invalid free() / delete / delete[] / realloc()
-==252124==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==252124==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10968E: DesalocaResumo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10B829: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==  Address 0x4ab6170 is 0 bytes inside a block of size 60 free'd
-==252124==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==252124==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10CE77: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10B7C1: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==  Block was alloc'd at
-==252124==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==252124==    by 0x10C28F: CriaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10CDCC: InsereNovoMovimentoSignificativoPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10C91E: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==252124== 
-==252124== 
-==252124== HEAP SUMMARY:
-==252124==     in use at exit: 0 bytes in 0 blocks
-==252124==   total heap usage: 54,106 allocs, 54,132 frees, 501,132 bytes allocated
-==252124== 
-==252124== All heap blocks were freed -- no leaks are possible
-==252124== 
-==252124== For lists of detected and suppressed errors, rerun with: -s
-==252124== ERROR SUMMARY: 26 errors from 1 contexts (suppressed: 0 from 0)
+==289313== Memcheck, a memory error detector
+==289313== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==289313== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==289313== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/08
+==289313== Parent PID: 289312
+==289313== 
+==289313== 
+==289313== HEAP SUMMARY:
+==289313==     in use at exit: 0 bytes in 0 blocks
+==289313==   total heap usage: 54,106 allocs, 54,106 frees, 501,132 bytes allocated
+==289313== 
+==289313== All heap blocks were freed -- no leaks are possible
+==289313== 
+==289313== For lists of detected and suppressed errors, rerun with: -s
+==289313== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
