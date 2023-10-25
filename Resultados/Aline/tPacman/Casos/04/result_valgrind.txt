@@ -1,84 +1,35 @@
-==89085== Memcheck, a memory error detector
-==89085== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==89085== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==89085== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/04
-==89085== Parent PID: 89084
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x10CEFC: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10CAEF: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10CF0D: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10CAEF: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x10CF44: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10CAEF: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10CF55: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10CAEF: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x10CEFC: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10CF0D: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x10CF44: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Conditional jump or move depends on uninitialised value(s)
-==89085==    at 0x484B235: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10CF55: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B496: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== Invalid free() / delete / delete[] / realloc()
-==89085==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10968E: DesalocaResumo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B829: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==  Address 0x4adea60 is 0 bytes inside a block of size 60 free'd
-==89085==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10CEE8: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B7C1: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==  Block was alloc'd at
-==89085==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==89085==    by 0x10C28F: CriaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10CE72: InsereNovoMovimentoSignificativoPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10C99F: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
-==89085== 
-==89085== 
-==89085== HEAP SUMMARY:
-==89085==     in use at exit: 0 bytes in 0 blocks
-==89085==   total heap usage: 397,751 allocs, 397,887 frees, 3,452,383 bytes allocated
-==89085== 
-==89085== All heap blocks were freed -- no leaks are possible
-==89085== 
-==89085== Use --track-origins=yes to see where uninitialised values come from
-==89085== For lists of detected and suppressed errors, rerun with: -s
-==89085== ERROR SUMMARY: 5240 errors from 9 contexts (suppressed: 0 from 0)
+==250856== Memcheck, a memory error detector
+==250856== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==250856== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==250856== Command: Resultados/Aline/tPacman/prog Resultados/Aline/tPacman/Casos/04
+==250856== Parent PID: 250855
+==250856== 
+==250856== Invalid free() / delete / delete[] / realloc()
+==250856==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==250856==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10968E: DesalocaResumo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10B829: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==  Address 0x4ade840 is 0 bytes inside a block of size 60 free'd
+==250856==    at 0x484B27F: free (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==250856==    by 0x10C31E: DesalocaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10CE77: DesalocaPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10B7C1: DesalocaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10B8BB: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==  Block was alloc'd at
+==250856==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==250856==    by 0x10C28F: CriaMovimento (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10CDCC: InsereNovoMovimentoSignificativoPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10C91E: MovePacman (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10B470: ExecutaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856==    by 0x10B8AF: main (in /home/ammmanhaes/pacman2/Resultados/Aline/tPacman/prog)
+==250856== 
+==250856== 
+==250856== HEAP SUMMARY:
+==250856==     in use at exit: 0 bytes in 0 blocks
+==250856==   total heap usage: 397,112 allocs, 397,248 frees, 3,396,239 bytes allocated
+==250856== 
+==250856== All heap blocks were freed -- no leaks are possible
+==250856== 
+==250856== For lists of detected and suppressed errors, rerun with: -s
+==250856== ERROR SUMMARY: 136 errors from 1 contexts (suppressed: 0 from 0)
