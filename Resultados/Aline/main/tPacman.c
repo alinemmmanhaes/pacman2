@@ -216,7 +216,6 @@ void DesalocaPacman(tPacman* pacman){
             }
             free(pacman->historicoDeMovimentosSignificativos);
         }
-        //free(pacman->historicoDeMovimentosSignificativos);
         if(pacman->trilha != NULL){
             for(i=0; i<pacman->nLinhasTrilha; i++){
                 free(pacman->trilha[i]);
