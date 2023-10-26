@@ -46,7 +46,7 @@ tMovimento** ClonaHistoricoDeMovimentosSignificativosPacman(tPacman* pacman){
     tMovimento** clone = malloc(pacman->nMovimentosSignificativos*sizeof(tMovimento*));
     int i;
     for(i=0; i<pacman->nMovimentosSignificativos; i++){
-        clone[i] = pacman->historicoDeMovimentosSignificativos[i];
+        clone[i] = CriaMovimento(ObtemNumeroMovimento(pacman->historicoDeMovimentosSignificativos[i]), ObtemComandoMovimento(pacman->historicoDeMovimentosSignificativos[i]), ObtemAcaoMovimento(pacman->historicoDeMovimentosSignificativos[i]));
     }
     return clone;
 }
@@ -208,15 +208,15 @@ void DesalocaPacman(tPacman* pacman){
             DesalocaPosicao(pacman->posicaoAtual);
         }
         int i;
-        /*if(pacman->historicoDeMovimentosSignificativos!=NULL){
+        if(pacman->historicoDeMovimentosSignificativos!=NULL){
             for(i=0; i<ObtemNumeroMovimentosSignificativosPacman(pacman); i++){
                 if(pacman->historicoDeMovimentosSignificativos[i]!=NULL){
                     DesalocaMovimento(pacman->historicoDeMovimentosSignificativos[i]);
                 }
             }
             free(pacman->historicoDeMovimentosSignificativos);
-        }*/
-        free(pacman->historicoDeMovimentosSignificativos);
+        }
+        //free(pacman->historicoDeMovimentosSignificativos);
         if(pacman->trilha != NULL){
             for(i=0; i<pacman->nLinhasTrilha; i++){
                 free(pacman->trilha[i]);
