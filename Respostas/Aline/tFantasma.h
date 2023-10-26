@@ -4,6 +4,7 @@
 #include "tPosicao.h"
 #include "tMovimento.h"
 #include "tMapa.h"
+#include "tPacman.h"
 #include <stdio.h>
 #include <stdlib.h>
 
@@ -61,6 +62,8 @@ void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa);
 */
 void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa);
 
+void MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
+
 /**
  * Verifica se o fantasma f estava em cima de uma posicao de comida na ultima rodada.
  * Retorna 1 caso tenha comida e 0 caso nao.
@@ -85,6 +88,8 @@ char ObtemNomeFantasma(tFantasma* fantasma);
  * \param fantasma Ponteiro para o tFantasma analisado
 */
 tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma);
+
+tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
 
 /**
  * Caso o fantasma seja diferente de NULL, libera o espaço 

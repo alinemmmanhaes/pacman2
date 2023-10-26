@@ -1,3 +1,12 @@
+In file included from tFantasma.c:1:
+tFantasma.h:99:6: error: conflicting types for ‘DesalocaPacman’; have ‘void(tFantasma *)’
+   99 | void DesalocaPacman(tFantasma* fantasma);
+      |      ^~~~~~~~~~~~~~
+In file included from tFantasma.h:7,
+                 from tFantasma.c:1:
+tPacman.h:150:6: note: previous declaration of ‘DesalocaPacman’ with type ‘void(tPacman *)’
+  150 | void DesalocaPacman(tPacman* pacman);
+      |      ^~~~~~~~~~~~~~
 tFantasma.c: In function ‘AndaFantasmaHorizontal’:
 tFantasma.c:65:12: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
    65 |     return fantasma;

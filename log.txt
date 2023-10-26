@@ -66,6 +66,9 @@ COPIANDO OS ARQUIVOS PARA A PASTA DE RESULTADO DO ALUNO:
  - Arquivos copiados: ok!
 
 COMPILANDO OS ARQUIVOS NA PASTA DE RESULTADO DO ALUNO:
+ - Erro de compilação! Verifique os arquivos da pasta completo.
+ - Erro de compilação! Verifique os arquivos da pasta main.
+ - Arquivos Compilados: Erro!: 2 arquivos com erros de compilacao.
  - Copiando os arquivos objetos do professor para cada subpasta do Resultado do Aline:
  - Copiando o Gabarito-obj/tPacman.o para a pasta Resultados/Aline/tMapa
  - Copiando o Gabarito-obj/tPacman.o para a pasta Resultados/Aline/tMovimento
@@ -134,1353 +137,1353 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Pasta tPacman / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/01/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,675, frees: 34,675, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/02/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,811, frees: 1,811, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/03/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,318,179, frees: 1,318,179, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/04/result_valgrind.txt.
  - Valgrind: Ok! allocs: 397,112, frees: 397,112, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/05/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,430,044, frees: 1,430,044, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/06/result_valgrind.txt.
  - Valgrind: Ok! allocs: 192,743, frees: 192,743, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/07/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,935, frees: 8,935, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/08/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,106, frees: 54,106, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/09/result_valgrind.txt.
  - Valgrind: Ok! allocs: 749,171, frees: 749,171, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/10/result_valgrind.txt.
  - Valgrind: Ok! allocs: 116,049, frees: 116,049, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/11/result_valgrind.txt.
  - Valgrind: Ok! allocs: 933,459, frees: 933,459, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/12/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,171, frees: 58,171, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/13/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,309, frees: 54,309, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/14/result_valgrind.txt.
  - Valgrind: Ok! allocs: 38,348, frees: 38,348, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/15/result_valgrind.txt.
  - Valgrind: Ok! allocs: 22,162, frees: 22,162, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/16/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,468, frees: 8,468, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/17/result_valgrind.txt.
  - Valgrind: Ok! allocs: 5,602, frees: 5,602, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/18/result_valgrind.txt.
  - Valgrind: Ok! allocs: 15,430, frees: 15,430, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/19/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,847, frees: 58,847, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/20/result_valgrind.txt.
  - Valgrind: Ok! allocs: 42,331, frees: 42,331, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/21/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11,076, frees: 11,076, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/22/result_valgrind.txt.
  - Valgrind: Ok! allocs: 33,388, frees: 33,388, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/23/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,511, frees: 34,511, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/24/result_valgrind.txt.
  - Valgrind: Ok! allocs: 21,049, frees: 21,049, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/25/result_valgrind.txt.
  - Valgrind: Ok! allocs: 134,831, frees: 134,831, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/26/result_valgrind.txt.
  - Valgrind: Ok! allocs: 75,843, frees: 75,843, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/27/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,311, frees: 9,311, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/28/result_valgrind.txt.
  - Valgrind: Ok! allocs: 78,181, frees: 78,181, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/29/result_valgrind.txt.
  - Valgrind: Ok! allocs: 79,265, frees: 79,265, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPacman / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/tPacman/Casos/30/result_valgrind.txt.
  - Valgrind: Ok! allocs: 110,447, frees: 110,447, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/01/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,557, frees: 34,557, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/02/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,766, frees: 1,766, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/03/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,317,536, frees: 1,317,536, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/04/result_valgrind.txt.
  - Valgrind: Ok! allocs: 397,235, frees: 397,235, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/05/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,430,055, frees: 1,430,055, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/06/result_valgrind.txt.
  - Valgrind: Ok! allocs: 192,671, frees: 192,671, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/07/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,938, frees: 8,938, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/08/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,083, frees: 54,083, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/09/result_valgrind.txt.
  - Valgrind: Ok! allocs: 749,237, frees: 749,237, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/10/result_valgrind.txt.
  - Valgrind: Ok! allocs: 116,044, frees: 116,044, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/11/result_valgrind.txt.
  - Valgrind: Ok! allocs: 933,534, frees: 933,534, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/12/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,029, frees: 58,029, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/13/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,007, frees: 54,007, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/14/result_valgrind.txt.
  - Valgrind: Ok! allocs: 38,248, frees: 38,248, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/15/result_valgrind.txt.
  - Valgrind: Ok! allocs: 21,819, frees: 21,819, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/16/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,407, frees: 8,407, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/17/result_valgrind.txt.
  - Valgrind: Ok! allocs: 5,509, frees: 5,509, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/18/result_valgrind.txt.
- - Valgrind: Ok! allocs: 15,477, frees: 15,477, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Valgrind: Ok! allocs: 15,480, frees: 15,480, errors: 0 | Desconto do valgrind: 0.0%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/19/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,605, frees: 58,605, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/20/result_valgrind.txt.
  - Valgrind: Ok! allocs: 42,232, frees: 42,232, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/21/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11,006, frees: 11,006, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/22/result_valgrind.txt.
  - Valgrind: Ok! allocs: 33,273, frees: 33,273, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/23/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,278, frees: 34,278, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/24/result_valgrind.txt.
  - Valgrind: Ok! allocs: 20,959, frees: 20,959, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/25/result_valgrind.txt.
  - Valgrind: Ok! allocs: 134,646, frees: 134,646, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/26/result_valgrind.txt.
  - Valgrind: Ok! allocs: 75,574, frees: 75,574, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/27/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,967, frees: 8,967, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/28/result_valgrind.txt.
  - Valgrind: Ok! allocs: 77,762, frees: 77,762, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/29/result_valgrind.txt.
  - Valgrind: Ok! allocs: 78,523, frees: 78,523, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMapa / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/tMapa/Casos/30/result_valgrind.txt.
  - Valgrind: Ok! allocs: 110,197, frees: 110,197, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/01/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,839, frees: 34,839, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/02/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,835, frees: 1,835, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/03/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,319,273, frees: 1,319,273, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/04/result_valgrind.txt.
  - Valgrind: Ok! allocs: 397,792, frees: 397,792, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/05/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,431,242, frees: 1,431,242, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/06/result_valgrind.txt.
  - Valgrind: Ok! allocs: 193,143, frees: 193,143, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/07/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,025, frees: 9,025, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/08/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,320, frees: 54,320, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/09/result_valgrind.txt.
  - Valgrind: Ok! allocs: 750,044, frees: 750,044, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/10/result_valgrind.txt.
  - Valgrind: Ok! allocs: 116,392, frees: 116,392, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/11/result_valgrind.txt.
  - Valgrind: Ok! allocs: 934,431, frees: 934,431, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/12/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,376, frees: 58,376, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/13/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,479, frees: 54,479, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/14/result_valgrind.txt.
  - Valgrind: Ok! allocs: 38,525, frees: 38,525, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/15/result_valgrind.txt.
  - Valgrind: Ok! allocs: 22,236, frees: 22,236, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/16/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,544, frees: 8,544, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/17/result_valgrind.txt.
  - Valgrind: Ok! allocs: 5,646, frees: 5,646, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/18/result_valgrind.txt.
  - Valgrind: Ok! allocs: 15,610, frees: 15,610, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/19/result_valgrind.txt.
  - Valgrind: Ok! allocs: 59,022, frees: 59,022, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/20/result_valgrind.txt.
  - Valgrind: Ok! allocs: 42,509, frees: 42,509, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/21/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11,156, frees: 11,156, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/22/result_valgrind.txt.
  - Valgrind: Ok! allocs: 33,550, frees: 33,550, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/23/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,635, frees: 34,635, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/24/result_valgrind.txt.
  - Valgrind: Ok! allocs: 21,166, frees: 21,166, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/25/result_valgrind.txt.
  - Valgrind: Ok! allocs: 135,118, frees: 135,118, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/26/result_valgrind.txt.
  - Valgrind: Ok! allocs: 76,006, frees: 76,006, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/27/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,344, frees: 9,344, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/28/result_valgrind.txt.
  - Valgrind: Ok! allocs: 78,359, frees: 78,359, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/29/result_valgrind.txt.
  - Valgrind: Ok! allocs: 79,390, frees: 79,390, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tMovimento / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/tMovimento/Casos/30/result_valgrind.txt.
  - Valgrind: Ok! allocs: 110,669, frees: 110,669, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/01/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,839, frees: 34,839, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/02/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,835, frees: 1,835, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/03/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,319,273, frees: 1,319,273, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/04/result_valgrind.txt.
  - Valgrind: Ok! allocs: 397,792, frees: 397,792, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/05/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,431,242, frees: 1,431,242, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/06/result_valgrind.txt.
  - Valgrind: Ok! allocs: 193,143, frees: 193,143, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/07/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,025, frees: 9,025, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/08/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,320, frees: 54,320, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/09/result_valgrind.txt.
  - Valgrind: Ok! allocs: 750,044, frees: 750,044, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/10/result_valgrind.txt.
  - Valgrind: Ok! allocs: 116,392, frees: 116,392, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/11/result_valgrind.txt.
  - Valgrind: Ok! allocs: 934,431, frees: 934,431, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/12/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,376, frees: 58,376, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/13/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,479, frees: 54,479, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/14/result_valgrind.txt.
  - Valgrind: Ok! allocs: 38,525, frees: 38,525, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/15/result_valgrind.txt.
  - Valgrind: Ok! allocs: 22,236, frees: 22,236, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/16/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,544, frees: 8,544, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/17/result_valgrind.txt.
  - Valgrind: Ok! allocs: 5,646, frees: 5,646, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/18/result_valgrind.txt.
  - Valgrind: Ok! allocs: 15,610, frees: 15,610, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/19/result_valgrind.txt.
  - Valgrind: Ok! allocs: 59,022, frees: 59,022, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/20/result_valgrind.txt.
  - Valgrind: Ok! allocs: 42,509, frees: 42,509, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/21/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11,156, frees: 11,156, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/22/result_valgrind.txt.
  - Valgrind: Ok! allocs: 33,550, frees: 33,550, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/23/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,635, frees: 34,635, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/24/result_valgrind.txt.
  - Valgrind: Ok! allocs: 21,166, frees: 21,166, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/25/result_valgrind.txt.
  - Valgrind: Ok! allocs: 135,118, frees: 135,118, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/26/result_valgrind.txt.
  - Valgrind: Ok! allocs: 76,006, frees: 76,006, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/27/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,344, frees: 9,344, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/28/result_valgrind.txt.
  - Valgrind: Ok! allocs: 78,359, frees: 78,359, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/29/result_valgrind.txt.
  - Valgrind: Ok! allocs: 79,390, frees: 79,390, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tTunel / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/tTunel/Casos/30/result_valgrind.txt.
  - Valgrind: Ok! allocs: 110,669, frees: 110,669, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/01/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,839, frees: 34,839, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/02/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,835, frees: 1,835, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/03/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,319,273, frees: 1,319,273, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/04/result_valgrind.txt.
  - Valgrind: Ok! allocs: 397,792, frees: 397,792, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/05/result_valgrind.txt.
  - Valgrind: Ok! allocs: 1,431,242, frees: 1,431,242, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/06/result_valgrind.txt.
  - Valgrind: Ok! allocs: 193,143, frees: 193,143, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/07/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,025, frees: 9,025, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/08/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,320, frees: 54,320, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/09/result_valgrind.txt.
  - Valgrind: Ok! allocs: 750,044, frees: 750,044, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/10/result_valgrind.txt.
  - Valgrind: Ok! allocs: 116,392, frees: 116,392, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/11/result_valgrind.txt.
  - Valgrind: Ok! allocs: 934,431, frees: 934,431, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/12/result_valgrind.txt.
  - Valgrind: Ok! allocs: 58,376, frees: 58,376, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/13/result_valgrind.txt.
  - Valgrind: Ok! allocs: 54,479, frees: 54,479, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/14/result_valgrind.txt.
  - Valgrind: Ok! allocs: 38,525, frees: 38,525, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/15/result_valgrind.txt.
  - Valgrind: Ok! allocs: 22,236, frees: 22,236, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/16/result_valgrind.txt.
  - Valgrind: Ok! allocs: 8,544, frees: 8,544, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/17/result_valgrind.txt.
  - Valgrind: Ok! allocs: 5,646, frees: 5,646, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/18/result_valgrind.txt.
  - Valgrind: Ok! allocs: 15,610, frees: 15,610, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/19/result_valgrind.txt.
  - Valgrind: Ok! allocs: 59,022, frees: 59,022, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/20/result_valgrind.txt.
  - Valgrind: Ok! allocs: 42,509, frees: 42,509, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/21/result_valgrind.txt.
  - Valgrind: Ok! allocs: 11,156, frees: 11,156, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/22/result_valgrind.txt.
  - Valgrind: Ok! allocs: 33,550, frees: 33,550, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/23/result_valgrind.txt.
  - Valgrind: Ok! allocs: 34,635, frees: 34,635, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/24/result_valgrind.txt.
  - Valgrind: Ok! allocs: 21,166, frees: 21,166, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/25/result_valgrind.txt.
  - Valgrind: Ok! allocs: 135,118, frees: 135,118, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/26/result_valgrind.txt.
  - Valgrind: Ok! allocs: 76,006, frees: 76,006, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/27/result_valgrind.txt.
  - Valgrind: Ok! allocs: 9,344, frees: 9,344, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/28/result_valgrind.txt.
  - Valgrind: Ok! allocs: 78,359, frees: 78,359, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/29/result_valgrind.txt.
  - Valgrind: Ok! allocs: 79,390, frees: 79,390, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta tPosicao / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/tPosicao/Casos/30/result_valgrind.txt.
  - Valgrind: Ok! allocs: 110,669, frees: 110,669, errors: 0 | Desconto do valgrind: 0.0%
- - Resultado para o estatisticas.txt: Ok! Peso: 2.0
- - Resultado para o inicializacao.txt: Ok! Peso: 1.2
- - Resultado para o ranking.txt: Ok! Peso: 2.0
- - Resultado para o resumo.txt: Ok! Peso: 1.2
- - Resultado para o saida.txt: Ok! Peso: 1.8
- - Resultado para o trilha.txt: Ok! Peso: 1.8
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
+ - Resultado para o inicializacao.txt: Ok! Peso: 1.0
+ - Resultado para o ranking.txt: Ok! Peso: 1.5
+ - Resultado para o resumo.txt: Ok! Peso: 1.5
+ - Resultado para o saida.txt: Ok! Peso: 3.0
+ - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 01:
  - Valgrind: Incorreto! Verifique se o binário prog foi gerado corretamente. Ou se o Valgrind está instalado.
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/01/saida/estatisticas.txt, considerando resultado incorreto!
@@ -1969,7 +1972,7 @@ RESULTADOS FINAIS
 ----------------------------------------------------------------------------
 Nome 0: Aline
  - Resumo dos Resultados:
- - Resumo das Compilações: 7 compilações corretas de 7 no total
+ - Resumo das Compilações: 5 compilações corretas de 7 no total
  - Resumo das Linkagens: 5 linkagens corretas de 7 no total
  - Valgrinds Corretos tPacman: 30 valgrinds corretos de 30 (não teve desconto na nota)
  - Valgrinds Corretos tMapa: 30 valgrinds corretos de 30 (não teve desconto na nota)
@@ -1981,12 +1984,12 @@ Nome 0: Aline
  - Cômputo final das Notas:
  - Pasta tPacman (peso 2.5): 180 resultados corretos de 180 / Nota 2.50
  - Pasta tMapa (peso 2.5): 180 resultados corretos de 180 / Nota 2.50
- - Pasta tMovimento (peso 1.0): 180 resultados corretos de 180 / Nota 1.00
- - Pasta tTunel (peso 1.0): 180 resultados corretos de 180 / Nota 1.00
- - Pasta tPosicao (peso 1.0): 180 resultados corretos de 180 / Nota 1.00
- - Pasta completo (peso 1.0): 0 resultados corretos de 180 / Nota 0
- - Pasta main (peso 1.0): 0 resultados corretos de 180 / Nota 0
- - Nota Final Aline: 8.00
+ - Pasta tMovimento (peso 0.5): 180 resultados corretos de 180 / Nota .50
+ - Pasta tTunel (peso 0.5): 180 resultados corretos de 180 / Nota .50
+ - Pasta tPosicao (peso 0.5): 180 resultados corretos de 180 / Nota .50
+ - Pasta completo (peso 0.0): 0 resultados corretos de 180 / Nota 0
+ - Pasta main (peso 3.5): 0 resultados corretos de 180 / Nota 0
+ - Nota Final Aline: 6.50
 
 ----------------------------------------------------------------------------
 

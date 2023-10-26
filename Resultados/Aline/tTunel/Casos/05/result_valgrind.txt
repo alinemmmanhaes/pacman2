@@ -1,15 +1,15 @@
-==307402== Memcheck, a memory error detector
-==307402== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==307402== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==307402== Command: Resultados/Aline/tTunel/prog Resultados/Aline/tTunel/Casos/05
-==307402== Parent PID: 307401
-==307402== 
-==307402== 
-==307402== HEAP SUMMARY:
-==307402==     in use at exit: 0 bytes in 0 blocks
-==307402==   total heap usage: 1,431,242 allocs, 1,431,242 frees, 12,172,589 bytes allocated
-==307402== 
-==307402== All heap blocks were freed -- no leaks are possible
-==307402== 
-==307402== For lists of detected and suppressed errors, rerun with: -s
-==307402== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==99644== Memcheck, a memory error detector
+==99644== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==99644== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==99644== Command: Resultados/Aline/tTunel/prog Resultados/Aline/tTunel/Casos/05
+==99644== Parent PID: 99643
+==99644== 
+==99644== 
+==99644== HEAP SUMMARY:
+==99644==     in use at exit: 0 bytes in 0 blocks
+==99644==   total heap usage: 1,431,242 allocs, 1,431,242 frees, 12,172,589 bytes allocated
+==99644== 
+==99644== All heap blocks were freed -- no leaks are possible
+==99644== 
+==99644== For lists of detected and suppressed errors, rerun with: -s
+==99644== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

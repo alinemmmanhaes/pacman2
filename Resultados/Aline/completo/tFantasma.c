@@ -86,6 +86,17 @@ void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
     return fantasma;
 }
 
+void MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM){
+    if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), ObtemPosicaoPacman(pacman))){
+        MataPacman(pacman);
+    }
+    else if(SaoIguaisPosicao(ObtemPosicaoAnteriorFantasma(fantasma), ObtemPosicaoPacman(pacman))){
+        if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), posicaoanteriorPM)){
+            MataPacman(pacman);
+        }
+    }
+}
+
 int VerificaComida(tFantasma* fantasma){
     return fantasma->comida;
 }
@@ -107,8 +118,16 @@ tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma){
     return fantasma->posicaoatual;
 }
 
-void DesalocaPacman(tFantasma* fantasma){
-    DesalocaPosicao(fantasma->posicaoanterior);
-    DesalocaPosicao(fantasma->posicaoatual);
+tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma){
+    return fantasma->posicaoanterior;
+}
+
+void DesalocaFantasma(tFantasma* fantasma){
+    if(fantasma->posicaoanterior != NULL){
+        DesalocaPosicao(fantasma->posicaoanterior);
+    }
+    if(fantasma->posicaoatual != NULL){
+        DesalocaPosicao(fantasma->posicaoatual);
+    }
     free(fantasma);
 }
