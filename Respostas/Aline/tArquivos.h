@@ -4,6 +4,8 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "tMapa.h"
+#include "tMovimento.h"
+#include "tPacman.h"
 
 /**
  * Gera conteudo do arquivo inicializacao.txt
@@ -12,5 +14,7 @@
  * \param mapa ponteiro para mapa do jogo
 */
 tPosicao* Inicializacao(const char* diretorio, tMapa* mapa);
+
+tMovimento** Resumo(tPacman* pacman, const char* diretorio);
 
 #endif

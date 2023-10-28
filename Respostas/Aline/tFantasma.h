@@ -93,6 +93,12 @@ tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
 
 void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm);
 
+void RemovePacManMapa(tMapa* mapa, tPacman* pacman);
+
+void DiminuiPontos(char comando, tPacman* pacman);
+
+void ImprimeEstadoAtual(char comando, tMapa* mapa, tPacman* pacman);
+
 /**
  * Caso o fantasma seja diferente de NULL, libera o espaço
  * alocado para a estrutura tFantasma.

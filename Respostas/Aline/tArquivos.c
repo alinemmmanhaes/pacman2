@@ -25,3 +25,12 @@ tPosicao* Inicializacao(const char* diretorio, tMapa* mapa){
     return posicao;
 }
 
+tMovimento** Resumo(tPacman* pacman, const char* diretorio){
+    tMovimento** resumo = NULL;
+    resumo = ClonaHistoricoDeMovimentosSignificativosPacman(pacman);
+    for(int i=0; i<ObtemNumeroMovimentosSignificativosPacman(pacman); i++){
+        printf("Movimento %d (%c) %s\n", resumo[i]->numeroDoMovimento, resumo[i]->comando, resumo[i]->acao);
+    }
+    return resumo;
+}
+

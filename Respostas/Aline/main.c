@@ -18,6 +18,7 @@ typedef struct tJogo{
 } tJogo;
 
 void JogaJogo(tJogo* jogo){
+    int resp = -1, caso = 0, pontosantes = -1;
     char comando, x, y;
     tPosicao* anteriorpm = NULL;
 
@@ -26,6 +27,7 @@ void JogaJogo(tJogo* jogo){
         x = ObtemLinhaPosicao(ObtemPosicaoPacman(jogo->pacman));
         y = ObtemColunaPosicao(ObtemPosicaoPacman(jogo->pacman));
         anteriorpm = CriaPosicao(x, y);
+        pontosantes = ObtemPontuacaoAtualPacman(jogo->pacman);
 
         MovePacman(jogo->pacman, jogo->mapa, comando);
         AndaFantasmaHorizontal(jogo->B, jogo->mapa);
@@ -34,12 +36,69 @@ void JogaJogo(tJogo* jogo){
         AndaFantasmaVertical(jogo->P, jogo->mapa);
 
         AtualizaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm);
+
+        resp = MorreuPacman(pacman, mapa, jogo->B, anteriorpm);
+        if(resp == 1 || resp == 2){
+            caso = 1;
+        }
+        if(resp == 2){
+            RemovePacManMapa(jogo->mapa, jogo->pacman);
+        }
+        resp = MorreuPacman(pacman, mapa, jogo->C, anteriorpm);
+        if(resp == 1 || resp == 2){
+            caso = 1;
+        }
+        if(resp == 2){
+            RemovePacManMapa(jogo->mapa, jogo->pacman);
+        }
+        resp = MorreuPacman(pacman, mapa, jogo->I, anteriorpm);
+        if(resp == 1 || resp == 2){
+            caso = 1;
+        }
+        if(resp == 2){
+            RemovePacManMapa(jogo->mapa, jogo->pacman);
+        }
+        resp = MorreuPacman(pacman, mapa, jogo->P, anteriorpm);
+        if(resp == 1 || resp == 2){
+            caso = 1;
+        }
+        if(resp == 2){
+            RemovePacManMapa(jogo->mapa, jogo->pacman);
+        }
+
+        if((pontosantes!=ObtemPontuacaoAtualPacman(jogo->pacman)) && caso == 1){
+            DiminuiPontos(comando, jogo->pacman);
+        }
+
+        ImprimeEstadoAtual(comando, jogo->mapa, jogo->pacman);
+
+        if(caso == 1){
+            MataPacman(jogo->pacman);
+            InsereNovoMovimentoSignificativoPacman(jogo->pacman, comando, "fim de jogo por encostar em um fantasma");
+            break;
+        }
+        if(ObtemQuantidadeFrutasIniciaisMapa(jogo->mapa) == ObtemPontuacaoAtualPacman(jogo->pacman)){
+            caso = 2;
+            break;
+        }
+        if(i == ObtemNumeroMaximoMovimentosMapa(jogo->mapa)){
+            caso = 3;
+            break;
+        }
     }
+    if(caso == 2){
+        printf("Voce venceu!\n");
+    }
+    else{
+        printf("Game over!\n");
+    }
+    printf("Pontuacao final: %d\n", ObtemPontuacaoAtualPacman(jogo->pacman));
 }
 
 int main(int argc, char * argv[]){
     tJogo* jogo = malloc(sizeof(tJogo));
     tPosicao* posicaopm = NULL;
+    tMovimento** resumo = NULL;
 
     //Analisa se o diretório foi informado, avisa e finaliza o programa caso não tenha sido
     if(argc <= 1){
@@ -63,4 +122,6 @@ int main(int argc, char * argv[]){
     jogo->P = CriaFantasma(jogo->mapa, 'P');
 
     JogaJogo(jogo);
+
+    resumo = Resumo(jogo->pacman, argv[1]);
 }
