@@ -91,11 +91,13 @@ tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma);
 
 tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
 
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm);
+
 /**
- * Caso o fantasma seja diferente de NULL, libera o espaço 
+ * Caso o fantasma seja diferente de NULL, libera o espaço
  * alocado para a estrutura tFantasma.
  * \param fantasma Ponteiro para o tFantasma analisado
  */
-void DesalocaPacman(tFantasma* fantasma);
+void DesalocaFantasma(tFantasma* fantasma);
 
 #endif
