@@ -127,9 +127,9 @@ tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma){
     return fantasma->posicaoanterior;
 }
 
-void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm){
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pacman, tMapa* mapa, tPosicao* anteriorpm){
     for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
-        for(int j=0; j<ObtemNumeroColunasMapa; j++){
+        for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
             if(mapa->grid[i][j] == 'B'){
                 if(VerificaComida(B)){
                     mapa->grid[i][j] = '*';

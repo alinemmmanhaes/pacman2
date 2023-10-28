@@ -62,7 +62,7 @@ void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa);
 */
 void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa);
 
-void MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
+int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
 
 /**
  * Verifica se o fantasma f estava em cima de uma posicao de comida na ultima rodada.
