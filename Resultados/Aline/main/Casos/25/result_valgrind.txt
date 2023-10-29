@@ -1,0 +1,36 @@
+==87522== Memcheck, a memory error detector
+==87522== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==87522== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==87522== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/25
+==87522== Parent PID: 87521
+==87522== 
+==87522== 
+==87522== HEAP SUMMARY:
+==87522==     in use at exit: 11,804 bytes in 413 blocks
+==87522==   total heap usage: 2,507 allocs, 2,094 frees, 62,424 bytes allocated
+==87522== 
+==87522== 2,056 bytes in 257 blocks are definitely lost in loss record 23 of 26
+==87522==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==87522==    by 0x10C00D: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522==    by 0x1094DD: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522==    by 0x109A5E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522== 
+==87522== 3,264 (384 direct, 2,880 indirect) bytes in 1 blocks are definitely lost in loss record 25 of 26
+==87522==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==87522==    by 0x10B898: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522==    by 0x109D09: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522==    by 0x109A7C: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522== 
+==87522== 6,484 (48 direct, 6,436 indirect) bytes in 1 blocks are definitely lost in loss record 26 of 26
+==87522==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==87522==    by 0x1098EA: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==87522== 
+==87522== LEAK SUMMARY:
+==87522==    definitely lost: 2,488 bytes in 259 blocks
+==87522==    indirectly lost: 9,316 bytes in 154 blocks
+==87522==      possibly lost: 0 bytes in 0 blocks
+==87522==    still reachable: 0 bytes in 0 blocks
+==87522==         suppressed: 0 bytes in 0 blocks
+==87522== 
+==87522== For lists of detected and suppressed errors, rerun with: -s
+==87522== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

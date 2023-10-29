@@ -1,0 +1,41 @@
+==77547== Memcheck, a memory error detector
+==77547== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==77547== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==77547== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/14
+==77547== Parent PID: 77546
+==77547== 
+==77547== Invalid read of size 4
+==77547==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==    by 0x1096A0: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==77547== 
+==77547== 
+==77547== Process terminating with default action of signal 11 (SIGSEGV)
+==77547==  Access not within mapped region at address 0x4
+==77547==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==    by 0x1096A0: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77547==  If you believe this happened as a result of a stack
+==77547==  overflow in your program's main thread (unlikely but
+==77547==  possible), you can try to increase the size of the
+==77547==  main thread stack using the --main-stacksize= flag.
+==77547==  The main thread stack size used in this run was 8388608.
+==77547== 
+==77547== HEAP SUMMARY:
+==77547==     in use at exit: 6,228 bytes in 48 blocks
+==77547==   total heap usage: 90 allocs, 42 frees, 16,671 bytes allocated
+==77547== 
+==77547== LEAK SUMMARY:
+==77547==    definitely lost: 0 bytes in 0 blocks
+==77547==    indirectly lost: 0 bytes in 0 blocks
+==77547==      possibly lost: 0 bytes in 0 blocks
+==77547==    still reachable: 6,228 bytes in 48 blocks
+==77547==         suppressed: 0 bytes in 0 blocks
+==77547== Reachable blocks (those to which a pointer was found) are not shown.
+==77547== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==77547== 
+==77547== For lists of detected and suppressed errors, rerun with: -s
+==77547== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

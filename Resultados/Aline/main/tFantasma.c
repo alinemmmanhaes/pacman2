@@ -8,6 +8,7 @@ tFantasma* CriaFantasma(tMapa* mapa, char nome){
 
     fantasma->nome = nome;
     fantasma->existe = 0;
+    fantasma->comida = 0;
     fantasma->posicaoanterior = NULL;
     fantasma->posicaoatual = NULL; 
 
@@ -46,6 +47,7 @@ bool ExisteFantasma(tFantasma* fantasma){
 
 void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa){
     if(ExisteFantasma(fantasma)){
+        DesalocaPosicao(fantasma->posicaoanterior);
         fantasma->posicaoanterior = ClonaPosicao(ObtemPosicaoFantasma(fantasma));
         if(fantasma->direita == 0){
             fantasma->posicaoatual->coluna--;
@@ -62,11 +64,11 @@ void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa){
             fantasma->direita = 0;
         }
     }
-    return fantasma;
 }
 
 void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
     if(ExisteFantasma(fantasma)){
+        DesalocaPosicao(fantasma->posicaoanterior);
         fantasma->posicaoanterior = ClonaPosicao(ObtemPosicaoFantasma(fantasma));
         if(fantasma->cima == 0){
             fantasma->posicaoatual->linha++;
@@ -83,7 +85,6 @@ void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
             fantasma->cima = 0;
         }
     }
-    return fantasma;
 }
 
 int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM){
@@ -124,6 +125,107 @@ tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma){
 
 tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma){
     return fantasma->posicaoanterior;
+}
+
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pacman, tMapa* mapa, tPosicao* anteriorpm){
+    for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
+        for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
+            if(mapa->grid[i][j] == 'B'){
+                if(VerificaComida(B)){
+                    mapa->grid[i][j] = '*';
+                    TiraComida(B);
+                }
+                else{
+                    mapa->grid[i][j] = ' ';
+                }
+            }
+            else if(mapa->grid[i][j] == 'C'){
+                if(VerificaComida(C)){
+                    mapa->grid[i][j] = '*';
+                    TiraComida(C);
+                }
+                else{
+                    mapa->grid[i][j] = ' ';
+                }
+            }
+            else if(mapa->grid[i][j] == 'I'){
+                if(VerificaComida(I)){
+                    mapa->grid[i][j] = '*';
+                    TiraComida(I);
+                }
+                else{
+                    mapa->grid[i][j] = ' ';
+                }
+            }
+            else if(mapa->grid[i][j] == 'P'){
+                if(VerificaComida(P)){
+                    mapa->grid[i][j] = '*';
+                    TiraComida(P);
+                }
+                else{
+                    mapa->grid[i][j] = ' ';
+                }
+            }
+            else if(mapa->grid[i][j] == '>'){
+                if(PossuiTunelMapa(mapa)){
+                    if(EntrouTunel(mapa->tunel, anteriorpm)){
+                        mapa->grid[i][j] = '@';
+                    }
+                    else{
+                        mapa->grid[i][j] = ' ';
+                    }
+                }
+                else{
+                    mapa->grid[i][j] = ' ';
+                }
+            }
+            AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman), '>');
+            if(ExisteFantasma(B)){
+                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(B))){
+                    TiraComida(B);
+                }
+                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(B), 'B');
+            }
+            if(ExisteFantasma(C)){
+                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(C))){
+                    TiraComida(C);
+                }
+                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(C), 'C');
+            }
+            if(ExisteFantasma(I)){
+                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(I))){
+                    TiraComida(I);
+                }
+                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(I), 'I');
+            }
+            if(ExisteFantasma(P)){
+                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(P))){
+                    TiraComida(P);
+                }
+                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(P), 'P');
+            }
+        }
+    }
+}
+
+void RemovePacManMapa(tMapa* mapa, tPacman* pacman){
+    AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman), ' ');
+}
+
+void DiminuiPontos(char comando, tPacman* pacman){
+    if(comando == 'a'){
+        pacman->nFrutasComidasEsquerda--;
+    }
+    else if(comando == 's'){
+        pacman->nFrutasComidasBaixo--;
+    }
+    else if(comando == 'd'){
+        pacman->nFrutasComidasDireita--;
+    }
+    else if(comando == 'w'){
+        pacman->nFrutasComidasCima--;
+    }
+    pacman->nMovimentosSignificativos--;
 }
 
 void DesalocaFantasma(tFantasma* fantasma){

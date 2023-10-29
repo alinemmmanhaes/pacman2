@@ -1,0 +1,41 @@
+==78032== Memcheck, a memory error detector
+==78032== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==78032== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==78032== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/16
+==78032== Parent PID: 78031
+==78032== 
+==78032== Invalid read of size 4
+==78032==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==78032== 
+==78032== 
+==78032== Process terminating with default action of signal 11 (SIGSEGV)
+==78032==  Access not within mapped region at address 0x4
+==78032==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78032==  If you believe this happened as a result of a stack
+==78032==  overflow in your program's main thread (unlikely but
+==78032==  possible), you can try to increase the size of the
+==78032==  main thread stack using the --main-stacksize= flag.
+==78032==  The main thread stack size used in this run was 8388608.
+==78032== 
+==78032== HEAP SUMMARY:
+==78032==     in use at exit: 5,416 bytes in 33 blocks
+==78032==   total heap usage: 68 allocs, 35 frees, 15,131 bytes allocated
+==78032== 
+==78032== LEAK SUMMARY:
+==78032==    definitely lost: 0 bytes in 0 blocks
+==78032==    indirectly lost: 0 bytes in 0 blocks
+==78032==      possibly lost: 0 bytes in 0 blocks
+==78032==    still reachable: 5,416 bytes in 33 blocks
+==78032==         suppressed: 0 bytes in 0 blocks
+==78032== Reachable blocks (those to which a pointer was found) are not shown.
+==78032== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==78032== 
+==78032== For lists of detected and suppressed errors, rerun with: -s
+==78032== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

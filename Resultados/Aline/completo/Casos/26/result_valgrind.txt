@@ -1,0 +1,36 @@
+==80471== Memcheck, a memory error detector
+==80471== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==80471== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==80471== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/26
+==80471== Parent PID: 80470
+==80471== 
+==80471== 
+==80471== HEAP SUMMARY:
+==80471==     in use at exit: 10,386 bytes in 327 blocks
+==80471==   total heap usage: 1,216 allocs, 889 frees, 50,267 bytes allocated
+==80471== 
+==80471== 1,272 bytes in 159 blocks are definitely lost in loss record 27 of 31
+==80471==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==80471==    by 0x10C3A9: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471==    by 0x10949D: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471== 
+==80471== 2,992 (352 direct, 2,640 indirect) bytes in 1 blocks are definitely lost in loss record 30 of 31
+==80471==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==80471==    by 0x10B689: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471==    by 0x109CC9: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471==    by 0x109A3C: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471== 
+==80471== 6,122 (48 direct, 6,074 indirect) bytes in 1 blocks are definitely lost in loss record 31 of 31
+==80471==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==80471==    by 0x1098AA: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==80471== 
+==80471== LEAK SUMMARY:
+==80471==    definitely lost: 1,672 bytes in 161 blocks
+==80471==    indirectly lost: 8,714 bytes in 166 blocks
+==80471==      possibly lost: 0 bytes in 0 blocks
+==80471==    still reachable: 0 bytes in 0 blocks
+==80471==         suppressed: 0 bytes in 0 blocks
+==80471== 
+==80471== For lists of detected and suppressed errors, rerun with: -s
+==80471== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

@@ -1,0 +1,41 @@
+==74616== Memcheck, a memory error detector
+==74616== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==74616== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==74616== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/02
+==74616== Parent PID: 74615
+==74616== 
+==74616== Invalid read of size 4
+==74616==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==74616== 
+==74616== 
+==74616== Process terminating with default action of signal 11 (SIGSEGV)
+==74616==  Access not within mapped region at address 0x4
+==74616==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==74616==  If you believe this happened as a result of a stack
+==74616==  overflow in your program's main thread (unlikely but
+==74616==  possible), you can try to increase the size of the
+==74616==  main thread stack using the --main-stacksize= flag.
+==74616==  The main thread stack size used in this run was 8388608.
+==74616== 
+==74616== HEAP SUMMARY:
+==74616==     in use at exit: 5,021 bytes in 34 blocks
+==74616==   total heap usage: 59 allocs, 25 frees, 14,651 bytes allocated
+==74616== 
+==74616== LEAK SUMMARY:
+==74616==    definitely lost: 0 bytes in 0 blocks
+==74616==    indirectly lost: 0 bytes in 0 blocks
+==74616==      possibly lost: 0 bytes in 0 blocks
+==74616==    still reachable: 5,021 bytes in 34 blocks
+==74616==         suppressed: 0 bytes in 0 blocks
+==74616== Reachable blocks (those to which a pointer was found) are not shown.
+==74616== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==74616== 
+==74616== For lists of detected and suppressed errors, rerun with: -s
+==74616== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

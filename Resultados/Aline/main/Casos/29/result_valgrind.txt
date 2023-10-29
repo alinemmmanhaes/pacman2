@@ -1,0 +1,36 @@
+==88474== Memcheck, a memory error detector
+==88474== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==88474== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==88474== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/29
+==88474== Parent PID: 88473
+==88474== 
+==88474== 
+==88474== HEAP SUMMARY:
+==88474==     in use at exit: 10,132 bytes in 224 blocks
+==88474==   total heap usage: 1,701 allocs, 1,477 frees, 56,156 bytes allocated
+==88474== 
+==88474== 672 bytes in 84 blocks are definitely lost in loss record 21 of 27
+==88474==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==88474==    by 0x10C00D: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474==    by 0x1094DD: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474==    by 0x109A5E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474== 
+==88474== 2,040 (240 direct, 1,800 indirect) bytes in 1 blocks are definitely lost in loss record 25 of 27
+==88474==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==88474==    by 0x10B898: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474==    by 0x109D09: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474==    by 0x109A7C: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474== 
+==88474== 7,420 (48 direct, 7,372 indirect) bytes in 1 blocks are definitely lost in loss record 27 of 27
+==88474==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==88474==    by 0x1098EA: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==88474== 
+==88474== LEAK SUMMARY:
+==88474==    definitely lost: 960 bytes in 86 blocks
+==88474==    indirectly lost: 9,172 bytes in 138 blocks
+==88474==      possibly lost: 0 bytes in 0 blocks
+==88474==    still reachable: 0 bytes in 0 blocks
+==88474==         suppressed: 0 bytes in 0 blocks
+==88474== 
+==88474== For lists of detected and suppressed errors, rerun with: -s
+==88474== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

@@ -1,0 +1,36 @@
+==77794== Memcheck, a memory error detector
+==77794== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==77794== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==77794== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/15
+==77794== Parent PID: 77793
+==77794== 
+==77794== 
+==77794== HEAP SUMMARY:
+==77794==     in use at exit: 5,426 bytes in 127 blocks
+==77794==   total heap usage: 418 allocs, 291 frees, 31,604 bytes allocated
+==77794== 
+==77794== 360 bytes in 45 blocks are definitely lost in loss record 26 of 32
+==77794==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==77794==    by 0x10C3A9: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794==    by 0x10949D: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794== 
+==77794== 1,088 (128 direct, 960 indirect) bytes in 1 blocks are definitely lost in loss record 30 of 32
+==77794==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==77794==    by 0x10B689: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794==    by 0x109CC9: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794==    by 0x109A3C: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794== 
+==77794== 3,978 (48 direct, 3,930 indirect) bytes in 1 blocks are definitely lost in loss record 32 of 32
+==77794==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==77794==    by 0x1098AA: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==77794== 
+==77794== LEAK SUMMARY:
+==77794==    definitely lost: 536 bytes in 47 blocks
+==77794==    indirectly lost: 4,890 bytes in 80 blocks
+==77794==      possibly lost: 0 bytes in 0 blocks
+==77794==    still reachable: 0 bytes in 0 blocks
+==77794==         suppressed: 0 bytes in 0 blocks
+==77794== 
+==77794== For lists of detected and suppressed errors, rerun with: -s
+==77794== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

@@ -62,7 +62,7 @@ void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa);
 */
 void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa);
 
-void MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
+int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
 
 /**
  * Verifica se o fantasma f estava em cima de uma posicao de comida na ultima rodada.
@@ -91,11 +91,17 @@ tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma);
 
 tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
 
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm);
+
+void RemovePacManMapa(tMapa* mapa, tPacman* pacman);
+
+void DiminuiPontos(char comando, tPacman* pacman);
+
 /**
- * Caso o fantasma seja diferente de NULL, libera o espaço 
+ * Caso o fantasma seja diferente de NULL, libera o espaço
  * alocado para a estrutura tFantasma.
  * \param fantasma Ponteiro para o tFantasma analisado
  */
-void DesalocaPacman(tFantasma* fantasma);
+void DesalocaFantasma(tFantasma* fantasma);
 
 #endif

@@ -1,0 +1,41 @@
+==78279== Memcheck, a memory error detector
+==78279== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==78279== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==78279== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/17
+==78279== Parent PID: 78278
+==78279== 
+==78279== Invalid read of size 4
+==78279==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
+==78279== 
+==78279== 
+==78279== Process terminating with default action of signal 11 (SIGSEGV)
+==78279==  Access not within mapped region at address 0x4
+==78279==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
+==78279==  If you believe this happened as a result of a stack
+==78279==  overflow in your program's main thread (unlikely but
+==78279==  possible), you can try to increase the size of the
+==78279==  main thread stack using the --main-stacksize= flag.
+==78279==  The main thread stack size used in this run was 8388608.
+==78279== 
+==78279== HEAP SUMMARY:
+==78279==     in use at exit: 5,416 bytes in 33 blocks
+==78279==   total heap usage: 68 allocs, 35 frees, 15,131 bytes allocated
+==78279== 
+==78279== LEAK SUMMARY:
+==78279==    definitely lost: 0 bytes in 0 blocks
+==78279==    indirectly lost: 0 bytes in 0 blocks
+==78279==      possibly lost: 0 bytes in 0 blocks
+==78279==    still reachable: 5,416 bytes in 33 blocks
+==78279==         suppressed: 0 bytes in 0 blocks
+==78279== Reachable blocks (those to which a pointer was found) are not shown.
+==78279== To see them, rerun with: --leak-check=full --show-leak-kinds=all
+==78279== 
+==78279== For lists of detected and suppressed errors, rerun with: -s
+==78279== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)

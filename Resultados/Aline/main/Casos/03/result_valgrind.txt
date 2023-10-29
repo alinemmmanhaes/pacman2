@@ -1,0 +1,36 @@
+==82155== Memcheck, a memory error detector
+==82155== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==82155== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==82155== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/03
+==82155== Parent PID: 82154
+==82155== 
+==82155== 
+==82155== HEAP SUMMARY:
+==82155==     in use at exit: 174,616 bytes in 3,947 blocks
+==82155==   total heap usage: 15,969 allocs, 12,022 frees, 5,294,130 bytes allocated
+==82155== 
+==82155== 13,096 bytes in 1,637 blocks are definitely lost in loss record 22 of 26
+==82155==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82155==    by 0x10C00D: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155==    by 0x1094DD: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155==    by 0x109A5E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155== 
+==82155== 75,820 (8,920 direct, 66,900 indirect) bytes in 1 blocks are definitely lost in loss record 25 of 26
+==82155==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82155==    by 0x10B898: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155==    by 0x109D09: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155==    by 0x109A7C: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155== 
+==82155== 85,700 (48 direct, 85,652 indirect) bytes in 1 blocks are definitely lost in loss record 26 of 26
+==82155==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82155==    by 0x1098EA: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82155== 
+==82155== LEAK SUMMARY:
+==82155==    definitely lost: 22,064 bytes in 1,639 blocks
+==82155==    indirectly lost: 152,552 bytes in 2,308 blocks
+==82155==      possibly lost: 0 bytes in 0 blocks
+==82155==    still reachable: 0 bytes in 0 blocks
+==82155==         suppressed: 0 bytes in 0 blocks
+==82155== 
+==82155== For lists of detected and suppressed errors, rerun with: -s
+==82155== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

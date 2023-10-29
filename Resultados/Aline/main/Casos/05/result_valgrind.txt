@@ -1,0 +1,36 @@
+==82631== Memcheck, a memory error detector
+==82631== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==82631== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==82631== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/05
+==82631== Parent PID: 82630
+==82631== 
+==82631== 
+==82631== HEAP SUMMARY:
+==82631==     in use at exit: 62,765 bytes in 1,920 blocks
+==82631==   total heap usage: 10,110 allocs, 8,190 frees, 629,425 bytes allocated
+==82631== 
+==82631== 9,168 bytes in 1,146 blocks are definitely lost in loss record 22 of 26
+==82631==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82631==    by 0x10C00D: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631==    by 0x1094DD: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631==    by 0x109A5E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631== 
+==82631== 23,256 (2,736 direct, 20,520 indirect) bytes in 1 blocks are definitely lost in loss record 25 of 26
+==82631==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82631==    by 0x10B898: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631==    by 0x109D09: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631==    by 0x109A7C: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631== 
+==82631== 30,341 (48 direct, 30,293 indirect) bytes in 1 blocks are definitely lost in loss record 26 of 26
+==82631==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==82631==    by 0x1098EA: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
+==82631== 
+==82631== LEAK SUMMARY:
+==82631==    definitely lost: 11,952 bytes in 1,148 blocks
+==82631==    indirectly lost: 50,813 bytes in 772 blocks
+==82631==      possibly lost: 0 bytes in 0 blocks
+==82631==    still reachable: 0 bytes in 0 blocks
+==82631==         suppressed: 0 bytes in 0 blocks
+==82631== 
+==82631== For lists of detected and suppressed errors, rerun with: -s
+==82631== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

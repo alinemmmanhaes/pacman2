@@ -1,31 +1,4 @@
-In file included from tFantasma.c:1:
-tFantasma.h:99:6: error: conflicting types for ‘DesalocaPacman’; have ‘void(tFantasma *)’
-   99 | void DesalocaPacman(tFantasma* fantasma);
-      |      ^~~~~~~~~~~~~~
-In file included from tFantasma.h:7,
-                 from tFantasma.c:1:
-tPacman.h:150:6: note: previous declaration of ‘DesalocaPacman’ with type ‘void(tPacman *)’
-  150 | void DesalocaPacman(tPacman* pacman);
-      |      ^~~~~~~~~~~~~~
-tFantasma.c: In function ‘AndaFantasmaHorizontal’:
-tFantasma.c:65:12: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
-   65 |     return fantasma;
-      |            ^~~~~~~~
-tFantasma.c:47:6: note: declared here
-   47 | void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa){
-      |      ^~~~~~~~~~~~~~~~~~~~~~
-tFantasma.c: In function ‘AndaFantasmaVertical’:
-tFantasma.c:86:12: warning: ‘return’ with a value, in function returning void [-Wreturn-type]
-   86 |     return fantasma;
-      |            ^~~~~~~~
-tFantasma.c:68:6: note: declared here
-   68 | void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
-      |      ^~~~~~~~~~~~~~~~~~~~
-tFantasma.c: At top level:
-tFantasma.c:89:5: error: conflicting types for ‘MorreuPacman’; have ‘int(tPacman *, tMapa *, tFantasma *, tPosicao *)’
-   89 | int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM){
-      |     ^~~~~~~~~~~~
-In file included from tFantasma.c:1:
-tFantasma.h:65:6: note: previous declaration of ‘MorreuPacman’ with type ‘void(tPacman *, tMapa *, tFantasma *, tPosicao *)’
-   65 | void MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
-      |      ^~~~~~~~~~~~
+main.c: In function ‘main’:
+main.c:127:18: warning: variable ‘resumo’ set but not used [-Wunused-but-set-variable]
+  127 |     tMovimento** resumo = NULL;
+      |                  ^~~~~~
