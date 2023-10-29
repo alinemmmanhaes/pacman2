@@ -29,13 +29,25 @@ tMovimento** Resumo(tPacman* pacman, const char* diretorio){
     FILE * pResumo;
     tMovimento** resumo = NULL;
 
-    char diresumo[1000];
+    char diresumo[1000], comando;
     sprintf(diresumo, "resumo.txt");
     pResumo = fopen(diresumo, "w");
 
     resumo = ClonaHistoricoDeMovimentosSignificativosPacman(pacman);
     for(int i=0; i<ObtemNumeroMovimentosSignificativosPacman(pacman); i++){
-        fprintf(pResumo, "Movimento %d (%c) %s\n", resumo[i]->numeroDoMovimento, resumo[i]->comando, resumo[i]->acao);
+        if(resumo[i]->comando == MOV_BAIXO){
+            comando = 's';
+        }
+        else if(resumo[i]->comando == MOV_CIMA){
+            comando = 'w';
+        }
+        else if(resumo[i]->comando == MOV_DIREITA){
+            comando = 'd';
+        }
+        else if(resumo[i]->comando == MOV_ESQUERDA){
+            comando = 'a';
+        }
+        fprintf(pResumo, "Movimento %d (%c) %s\n", resumo[i]->numeroDoMovimento, comando, resumo[i]->acao);
     }
 
     fclose(pResumo);

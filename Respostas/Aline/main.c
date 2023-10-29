@@ -17,9 +17,22 @@ typedef struct tJogo{
     tMapa* mapa;
 } tJogo;
 
+void ImprimeEstadoAtual(char comando, tMapa* mapa, tPacman* pacman){
+    printf("Estado do jogo apos o movimento '%c':\n", comando);
+
+    for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
+        for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
+            printf("%c", mapa->grid[i][j]);
+        }
+        printf("\n");
+    }
+    printf("Pontuacao: %d\n\n", ObtemPontuacaoAtualPacman(pacman));
+}
+
 void JogaJogo(tJogo* jogo){
     int resp = -1, caso = 0, pontosantes = -1;
     char comando, x, y;
+    COMANDO acao;
     tPosicao* anteriorpm = NULL;
 
     for(int i=1; i<=ObtemNumeroMaximoMovimentosMapa(jogo->mapa); i++){
@@ -29,7 +42,20 @@ void JogaJogo(tJogo* jogo){
         anteriorpm = CriaPosicao(x, y);
         pontosantes = ObtemPontuacaoAtualPacman(jogo->pacman);
 
-        MovePacman(jogo->pacman, jogo->mapa, comando);
+        if(comando == 'a'){
+            acao = MOV_ESQUERDA;
+        }
+        else if(comando == 's'){
+            acao = MOV_BAIXO;
+        }
+        else if(comando == 'd'){
+            acao = MOV_DIREITA;
+        }
+        else if(comando == 'w'){
+            acao = MOV_CIMA;
+        }
+
+        MovePacman(jogo->pacman, jogo->mapa, acao);
         AndaFantasmaHorizontal(jogo->B, jogo->mapa);
         AndaFantasmaHorizontal(jogo->C, jogo->mapa);
         AndaFantasmaVertical(jogo->I, jogo->mapa);
@@ -74,7 +100,7 @@ void JogaJogo(tJogo* jogo){
 
         if(caso == 1){
             MataPacman(jogo->pacman);
-            InsereNovoMovimentoSignificativoPacman(jogo->pacman, comando, "fim de jogo por encostar em um fantasma");
+            InsereNovoMovimentoSignificativoPacman(jogo->pacman, acao, "fim de jogo por encostar em um fantasma");
             break;
         }
         if(ObtemQuantidadeFrutasIniciaisMapa(jogo->mapa) == ObtemPontuacaoAtualPacman(jogo->pacman)){
@@ -121,6 +147,7 @@ int main(int argc, char * argv[]){
     jogo->C = CriaFantasma(jogo->mapa, 'C');
     jogo->P = CriaFantasma(jogo->mapa, 'P');
 
+    CriaTrilhaPacman(jogo->pacman, ObtemNumeroLinhasMapa(jogo->mapa), ObtemNumeroColunasMapa(jogo->mapa));
     JogaJogo(jogo);
 
     resumo = Resumo(jogo->pacman, argv[1]);

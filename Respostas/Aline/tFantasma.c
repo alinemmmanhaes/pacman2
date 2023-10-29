@@ -228,18 +228,6 @@ void DiminuiPontos(char comando, tPacman* pacman){
     pacman->nMovimentosSignificativos--;
 }
 
-void ImprimeEstadoAtual(char comando, tMapa* mapa, tPacman* pacman){
-    printf("Estado do jogo apos o movimento '%c':", comando);
-
-    for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
-        for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
-            printf("%c", mapa->grid[i][j]);
-        }
-        printf("\n");
-    }
-    printf("Pontuacao: %d\n\n", ObtemPontuacaoAtualPacman(pacman));
-}
-
 void DesalocaFantasma(tFantasma* fantasma){
     if(fantasma->posicaoanterior != NULL){
         DesalocaPosicao(fantasma->posicaoanterior);

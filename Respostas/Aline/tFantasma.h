@@ -97,8 +97,6 @@ void RemovePacManMapa(tMapa* mapa, tPacman* pacman);
 
 void DiminuiPontos(char comando, tPacman* pacman);
 
-void ImprimeEstadoAtual(char comando, tMapa* mapa, tPacman* pacman);
-
 /**
  * Caso o fantasma seja diferente de NULL, libera o espaço
  * alocado para a estrutura tFantasma.
