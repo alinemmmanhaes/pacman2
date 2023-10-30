@@ -1,41 +1,36 @@
-==83363== Memcheck, a memory error detector
-==83363== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==83363== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==83363== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/08
-==83363== Parent PID: 83362
-==83363== 
-==83363== Invalid read of size 4
-==83363==    at 0x10C0D3: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==    by 0x10A2AF: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==    by 0x1096E0: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==    by 0x109A5E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==  Address 0x0 is not stack'd, malloc'd or (recently) free'd
-==83363== 
-==83363== 
-==83363== Process terminating with default action of signal 11 (SIGSEGV)
-==83363==  Access not within mapped region at address 0x0
-==83363==    at 0x10C0D3: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==    by 0x10A2AF: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==    by 0x1096E0: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==    by 0x109A5E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==83363==  If you believe this happened as a result of a stack
-==83363==  overflow in your program's main thread (unlikely but
-==83363==  possible), you can try to increase the size of the
-==83363==  main thread stack using the --main-stacksize= flag.
-==83363==  The main thread stack size used in this run was 8388608.
-==83363== 
-==83363== HEAP SUMMARY:
-==83363==     in use at exit: 6,190 bytes in 68 blocks
-==83363==   total heap usage: 347 allocs, 279 frees, 18,884 bytes allocated
-==83363== 
-==83363== LEAK SUMMARY:
-==83363==    definitely lost: 0 bytes in 0 blocks
-==83363==    indirectly lost: 0 bytes in 0 blocks
-==83363==      possibly lost: 0 bytes in 0 blocks
-==83363==    still reachable: 6,190 bytes in 68 blocks
-==83363==         suppressed: 0 bytes in 0 blocks
-==83363== Reachable blocks (those to which a pointer was found) are not shown.
-==83363== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==83363== 
-==83363== For lists of detected and suppressed errors, rerun with: -s
-==83363== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==333367== Memcheck, a memory error detector
+==333367== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==333367== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==333367== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/08
+==333367== Parent PID: 333366
+==333367== 
+==333367== 
+==333367== HEAP SUMMARY:
+==333367==     in use at exit: 7,186 bytes in 322 blocks
+==333367==   total heap usage: 1,429 allocs, 1,107 frees, 46,184 bytes allocated
+==333367== 
+==333367== 1,632 bytes in 204 blocks are definitely lost in loss record 20 of 22
+==333367==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==333367==    by 0x10C092: CriaPosicao (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367==    by 0x1094DD: JogaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367==    by 0x109A24: main (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367== 
+==333367== 1,768 (208 direct, 1,560 indirect) bytes in 1 blocks are definitely lost in loss record 21 of 22
+==333367==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==333367==    by 0x10B91D: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367==    by 0x109CDF: Resumo (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367==    by 0x109A42: main (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367== 
+==333367== 3,786 (48 direct, 3,738 indirect) bytes in 1 blocks are definitely lost in loss record 22 of 22
+==333367==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==333367==    by 0x1098B0: main (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
+==333367== 
+==333367== LEAK SUMMARY:
+==333367==    definitely lost: 1,888 bytes in 206 blocks
+==333367==    indirectly lost: 5,298 bytes in 116 blocks
+==333367==      possibly lost: 0 bytes in 0 blocks
+==333367==    still reachable: 0 bytes in 0 blocks
+==333367==         suppressed: 0 bytes in 0 blocks
+==333367== 
+==333367== For lists of detected and suppressed errors, rerun with: -s
+==333367== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

@@ -7,8 +7,7 @@ Movimento 7 (w) pegou comida
 Movimento 8 (d) pegou comida
 Movimento 12 (d) pegou comida
 Movimento 13 (w) pegou comida
-Movimento 17 (w) pegou comida
-Movimento 19 (d) pegou comida
+Movimento 16 (d) pegou comida
 Movimento 20 (d) pegou comida
 Movimento 21 (s) pegou comida
 Movimento 22 (s) pegou comida
@@ -20,6 +19,7 @@ Movimento 27 (a) pegou comida
 Movimento 28 (w) pegou comida
 Movimento 29 (w) pegou comida
 Movimento 33 (a) pegou comida
+Movimento 34 (s) pegou comida
 Movimento 50 (w) pegou comida
 Movimento 51 (d) pegou comida
 Movimento 53 (a) pegou comida
@@ -46,4 +46,5 @@ Movimento 78 (w) pegou comida
 Movimento 79 (a) pegou comida
 Movimento 82 (s) colidiu com a parede
 Movimento 83 (d) pegou comida
+Movimento 87 (a) pegou comida
 Movimento 87 (a) fim de jogo por encostar em um fantasma

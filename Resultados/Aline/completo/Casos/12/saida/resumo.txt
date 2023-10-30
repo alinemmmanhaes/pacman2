@@ -7,8 +7,8 @@ Movimento 17 (w) pegou comida
 Movimento 19 (w) pegou comida
 Movimento 21 (d) pegou comida
 Movimento 26 (s) pegou comida
-Movimento 30 (s) pegou comida
 Movimento 31 (a) pegou comida
+Movimento 33 (d) pegou comida
 Movimento 36 (s) pegou comida
 Movimento 39 (s) pegou comida
 Movimento 40 (s) pegou comida
@@ -25,7 +25,7 @@ Movimento 94 (w) pegou comida
 Movimento 95 (a) pegou comida
 Movimento 98 (a) pegou comida
 Movimento 100 (s) pegou comida
-Movimento 104 (s) pegou comida
+Movimento 103 (a) pegou comida
 Movimento 111 (s) pegou comida
 Movimento 132 (d) pegou comida
 Movimento 137 (d) pegou comida

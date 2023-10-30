@@ -1,41 +1,36 @@
-==76815== Memcheck, a memory error detector
-==76815== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==76815== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==76815== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/11
-==76815== Parent PID: 76814
-==76815== 
-==76815== Invalid read of size 4
-==76815==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==  Address 0x4 is not stack'd, malloc'd or (recently) free'd
-==76815== 
-==76815== 
-==76815== Process terminating with default action of signal 11 (SIGSEGV)
-==76815==  Access not within mapped region at address 0x4
-==76815==    at 0x10C457: SaoIguaisPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==    by 0x10A26F: MorreuPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==    by 0x1095EA: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==    by 0x109A1E: main (in /home/alinemanhaes/pacman2/Resultados/Aline/completo/prog)
-==76815==  If you believe this happened as a result of a stack
-==76815==  overflow in your program's main thread (unlikely but
-==76815==  possible), you can try to increase the size of the
-==76815==  main thread stack using the --main-stacksize= flag.
-==76815==  The main thread stack size used in this run was 8388608.
-==76815== 
-==76815== HEAP SUMMARY:
-==76815==     in use at exit: 9,632 bytes in 36 blocks
-==76815==   total heap usage: 153 allocs, 117 frees, 24,355 bytes allocated
-==76815== 
-==76815== LEAK SUMMARY:
-==76815==    definitely lost: 0 bytes in 0 blocks
-==76815==    indirectly lost: 0 bytes in 0 blocks
-==76815==      possibly lost: 0 bytes in 0 blocks
-==76815==    still reachable: 9,632 bytes in 36 blocks
-==76815==         suppressed: 0 bytes in 0 blocks
-==76815== Reachable blocks (those to which a pointer was found) are not shown.
-==76815== To see them, rerun with: --leak-check=full --show-leak-kinds=all
-==76815== 
-==76815== For lists of detected and suppressed errors, rerun with: -s
-==76815== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==326262== Memcheck, a memory error detector
+==326262== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==326262== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==326262== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/11
+==326262== Parent PID: 326261
+==326262== 
+==326262== 
+==326262== HEAP SUMMARY:
+==326262==     in use at exit: 37,232 bytes in 1,314 blocks
+==326262==   total heap usage: 4,372 allocs, 3,058 frees, 218,787 bytes allocated
+==326262== 
+==326262== 7,360 bytes in 920 blocks are definitely lost in loss record 27 of 30
+==326262==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==326262==    by 0x10C42E: CriaPosicao (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262==    by 0x10949D: JogaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262==    by 0x1099E4: main (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262== 
+==326262== 12,172 (1,432 direct, 10,740 indirect) bytes in 1 blocks are definitely lost in loss record 29 of 30
+==326262==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==326262==    by 0x10B70E: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262==    by 0x109C9F: Resumo (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262==    by 0x109A02: main (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262== 
+==326262== 17,700 (48 direct, 17,652 indirect) bytes in 1 blocks are definitely lost in loss record 30 of 30
+==326262==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
+==326262==    by 0x109870: main (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
+==326262== 
+==326262== LEAK SUMMARY:
+==326262==    definitely lost: 8,840 bytes in 922 blocks
+==326262==    indirectly lost: 28,392 bytes in 392 blocks
+==326262==      possibly lost: 0 bytes in 0 blocks
+==326262==    still reachable: 0 bytes in 0 blocks
+==326262==         suppressed: 0 bytes in 0 blocks
+==326262== 
+==326262== For lists of detected and suppressed errors, rerun with: -s
+==326262== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)

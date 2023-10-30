@@ -61,7 +61,7 @@ void JogaJogo(tJogo* jogo){
         AndaFantasmaVertical(jogo->I, jogo->mapa);
         AndaFantasmaVertical(jogo->P, jogo->mapa);
 
-        AtualizaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm);
+        AtualizaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm, acao);
 
         resp = MorreuPacman(jogo->pacman, jogo->mapa, jogo->B, anteriorpm);
         if(resp == 1 || resp == 2){
@@ -90,10 +90,6 @@ void JogaJogo(tJogo* jogo){
         }
         if(resp == 2){
             RemovePacManMapa(jogo->mapa, jogo->pacman);
-        }
-
-        if((pontosantes!=ObtemPontuacaoAtualPacman(jogo->pacman)) && caso == 1){
-            DiminuiPontos(comando, jogo->pacman);
         }
 
         ImprimeEstadoAtual(comando, jogo->mapa, jogo->pacman);
@@ -151,4 +147,5 @@ int main(int argc, char * argv[]){
     JogaJogo(jogo);
 
     resumo = Resumo(jogo->pacman, argv[1]);
+    SalvaTrilhaPacman(jogo->pacman);
 }

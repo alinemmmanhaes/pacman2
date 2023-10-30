@@ -1,7 +1,7 @@
 Movimento 2 (a) pegou comida
 Movimento 6 (s) pegou comida
 Movimento 8 (s) pegou comida
-Movimento 17 (d) pegou comida
+Movimento 16 (d) pegou comida
 Movimento 22 (w) pegou comida
 Movimento 30 (w) pegou comida
 Movimento 31 (d) pegou comida

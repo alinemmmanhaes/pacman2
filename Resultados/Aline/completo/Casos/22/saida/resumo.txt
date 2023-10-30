@@ -27,8 +27,8 @@ Movimento 73 (w) colidiu com a parede
 Movimento 78 (w) colidiu com a parede
 Movimento 80 (w) pegou comida
 Movimento 85 (s) pegou comida
+Movimento 86 (d) pegou comida
 Movimento 87 (s) pegou comida
 Movimento 96 (a) pegou comida
 Movimento 97 (s) pegou comida
 Movimento 102 (d) pegou comida
-Movimento 104 (d) fim de jogo por encostar em um fantasma

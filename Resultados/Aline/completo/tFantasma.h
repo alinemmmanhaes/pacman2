@@ -91,7 +91,7 @@ tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma);
 
 tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
 
-void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm);
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm, COMANDO comando);
 
 void RemovePacManMapa(tMapa* mapa, tPacman* pacman);
 

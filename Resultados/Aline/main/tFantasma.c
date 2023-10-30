@@ -88,15 +88,17 @@ void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
 }
 
 int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM){
-    if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), ObtemPosicaoPacman(pacman))){
-        MataPacman(pacman);
-        return 1;
-    }
-    else if(SaoIguaisPosicao(ObtemPosicaoAnteriorFantasma(fantasma), ObtemPosicaoPacman(pacman))){
-        if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), posicaoanteriorPM)){
-            //TiraPacManMapa();
+    if(ExisteFantasma(fantasma)){
+        if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), ObtemPosicaoPacman(pacman))){
             MataPacman(pacman);
-            return 2;
+            return 1;
+        }
+        else if(SaoIguaisPosicao(ObtemPosicaoAnteriorFantasma(fantasma), ObtemPosicaoPacman(pacman))){
+            if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), posicaoanteriorPM)){
+                //TiraPacManMapa();
+                MataPacman(pacman);
+                return 2;
+            }
         }
     }
     return 0;
@@ -127,7 +129,7 @@ tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma){
     return fantasma->posicaoanterior;
 }
 
-void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pacman, tMapa* mapa, tPosicao* anteriorpm){
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pacman, tMapa* mapa, tPosicao* anteriorpm, COMANDO comando){
     for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
         for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
             if(mapa->grid[i][j] == 'B'){
@@ -179,32 +181,48 @@ void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacma
                     mapa->grid[i][j] = ' ';
                 }
             }
-            AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman), '>');
-            if(ExisteFantasma(B)){
-                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(B))){
-                    TiraComida(B);
-                }
-                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(B), 'B');
-            }
-            if(ExisteFantasma(C)){
-                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(C))){
-                    TiraComida(C);
-                }
-                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(C), 'C');
-            }
-            if(ExisteFantasma(I)){
-                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(I))){
-                    TiraComida(I);
-                }
-                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(I), 'I');
-            }
-            if(ExisteFantasma(P)){
-                if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(P))){
-                    TiraComida(P);
-                }
-                AtualizaItemMapa(mapa, ObtemPosicaoFantasma(P), 'P');
-            }
         }
+    }
+
+    if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman))){
+        if(comando == MOV_BAIXO){
+            pacman->nFrutasComidasBaixo++;
+        }
+        else if(comando == MOV_CIMA){
+            pacman->nFrutasComidasCima++;
+        }
+        else if(comando == MOV_ESQUERDA){
+            pacman->nFrutasComidasEsquerda++;
+        }
+        else if(comando == MOV_DIREITA){
+            pacman->nFrutasComidasDireita++;
+        }
+        InsereNovoMovimentoSignificativoPacman(pacman, comando, "pegou comida");
+    }
+    AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman), '>');
+    if(ExisteFantasma(B)){
+        if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(B))){
+            TiraComida(B);
+        }
+        AtualizaItemMapa(mapa, ObtemPosicaoFantasma(B), 'B');
+    }
+    if(ExisteFantasma(C)){
+        if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(C))){
+            TiraComida(C);
+        }
+        AtualizaItemMapa(mapa, ObtemPosicaoFantasma(C), 'C');
+    }
+    if(ExisteFantasma(I)){
+        if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(I))){
+            TiraComida(I);
+        }
+        AtualizaItemMapa(mapa, ObtemPosicaoFantasma(I), 'I');
+    }
+    if(ExisteFantasma(P)){
+        if(EncontrouComidaMapa(mapa, ObtemPosicaoFantasma(P))){
+            TiraComida(P);
+        }
+        AtualizaItemMapa(mapa, ObtemPosicaoFantasma(P), 'P');
     }
 }
 
