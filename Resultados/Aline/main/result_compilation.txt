@@ -3,6 +3,6 @@ main.c:33:30: warning: variable ‘pontosantes’ set but not used [-Wunused-but
    33 |     int resp = -1, caso = 0, pontosantes = -1;
       |                              ^~~~~~~~~~~
 main.c: In function ‘main’:
-main.c:123:18: warning: variable ‘resumo’ set but not used [-Wunused-but-set-variable]
-  123 |     tMovimento** resumo = NULL;
+main.c:125:18: warning: variable ‘resumo’ set but not used [-Wunused-but-set-variable]
+  125 |     tMovimento** resumo = NULL;
       |                  ^~~~~~

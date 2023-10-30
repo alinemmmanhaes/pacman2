@@ -35,6 +35,8 @@ void JogaJogo(tJogo* jogo){
     COMANDO acao;
     tPosicao* anteriorpm = NULL;
 
+    AtualizaTrilhaPacman(jogo->pacman);
+
     for(int i=1; i<=ObtemNumeroMaximoMovimentosMapa(jogo->mapa); i++){
         scanf("%c%*c", &comando);
         x = ObtemLinhaPosicao(ObtemPosicaoPacman(jogo->pacman));

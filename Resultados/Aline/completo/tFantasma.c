@@ -230,22 +230,6 @@ void RemovePacManMapa(tMapa* mapa, tPacman* pacman){
     AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman), ' ');
 }
 
-void DiminuiPontos(char comando, tPacman* pacman){
-    if(comando == 'a'){
-        pacman->nFrutasComidasEsquerda--;
-    }
-    else if(comando == 's'){
-        pacman->nFrutasComidasBaixo--;
-    }
-    else if(comando == 'd'){
-        pacman->nFrutasComidasDireita--;
-    }
-    else if(comando == 'w'){
-        pacman->nFrutasComidasCima--;
-    }
-    pacman->nMovimentosSignificativos--;
-}
-
 void DesalocaFantasma(tFantasma* fantasma){
     if(fantasma->posicaoanterior != NULL){
         DesalocaPosicao(fantasma->posicaoanterior);
