@@ -17,4 +17,6 @@ tPosicao* Inicializacao(const char* diretorio, tMapa* mapa);
 
 tMovimento** Resumo(tPacman* pacman, const char* diretorio);
 
+void Estatisticas(tPacman* pacman);
+
 #endif

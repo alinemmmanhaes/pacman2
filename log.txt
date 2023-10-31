@@ -1482,8 +1482,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/01/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 828, frees: 602, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/01/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 830, frees: 604, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/01/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1491,8 +1491,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/02/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 144, frees: 83, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/02/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 146, frees: 85, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/02/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1500,8 +1500,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/03/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5,130, frees: 3,914, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/03/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 5,132, frees: 3,916, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/03/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1509,8 +1509,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/04/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 4,348, frees: 3,388, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/04/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 4,350, frees: 3,390, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/04/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1518,8 +1518,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/05/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 8,069, frees: 6,149, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/05/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 8,071, frees: 6,151, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/05/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1527,8 +1527,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/06/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2,287, frees: 1,644, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/06/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 2,289, frees: 1,646, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/06/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1536,8 +1536,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/07/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 358, frees: 208, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/07/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 360, frees: 210, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/07/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1545,8 +1545,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/08/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,004, frees: 682, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/08/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,006, frees: 684, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/08/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1554,8 +1554,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/09/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 3,994, frees: 2,757, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/09/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 3,996, frees: 2,759, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/09/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1563,8 +1563,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,735, frees: 1,100, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/10/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,737, frees: 1,102, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/10/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1572,8 +1572,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/11/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 4,372, frees: 3,058, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/11/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 4,374, frees: 3,060, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/11/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1581,8 +1581,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/12/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,066, frees: 805, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/12/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,068, frees: 807, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/12/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1590,8 +1590,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/13/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 728, frees: 499, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/13/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 730, frees: 501, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/13/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1599,8 +1599,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/14/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 785, frees: 552, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/14/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 787, frees: 554, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/14/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1608,8 +1608,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/15/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 420, frees: 293, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/15/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 422, frees: 295, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/15/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1617,8 +1617,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/16/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 257, frees: 148, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/16/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 259, frees: 150, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/16/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1626,8 +1626,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/17/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 191, frees: 109, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/17/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 193, frees: 111, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/17/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1635,8 +1635,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/18/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 745, frees: 519, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/18/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 747, frees: 521, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/18/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1644,8 +1644,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/19/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 924, frees: 694, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/19/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 926, frees: 696, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/19/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1653,8 +1653,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/20/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 947, frees: 716, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/20/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 949, frees: 718, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/20/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1662,8 +1662,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/21/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 455, frees: 328, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/21/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 457, frees: 330, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/21/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1671,8 +1671,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/22/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 806, frees: 586, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/22/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 808, frees: 588, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/22/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1680,8 +1680,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/23/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 646, frees: 480, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/23/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 648, frees: 482, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/23/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1689,8 +1689,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/24/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 565, frees: 396, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/24/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 567, frees: 398, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/24/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1698,8 +1698,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/25/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,798, frees: 1,385, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/25/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,800, frees: 1,387, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/25/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1707,8 +1707,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/26/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,218, frees: 891, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/26/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,220, frees: 893, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/26/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1716,8 +1716,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/27/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 251, frees: 155, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/27/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 253, frees: 157, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/27/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1725,8 +1725,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/28/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 940, frees: 685, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/28/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 942, frees: 687, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/28/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1734,8 +1734,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/29/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 741, frees: 517, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/29/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 743, frees: 519, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/29/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1743,8 +1743,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta completo / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/completo/Casos/30/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,600, frees: 1,178, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/30/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,602, frees: 1,180, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/completo/Casos/30/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1752,8 +1752,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 01:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/01/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,243, frees: 1,017, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/01/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,245, frees: 1,019, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/01/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1761,8 +1761,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 02:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/02/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 232, frees: 171, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/02/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 234, frees: 173, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/02/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1770,8 +1770,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 03:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/03/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 7,751, frees: 6,535, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/03/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 7,753, frees: 6,537, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/03/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1779,8 +1779,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 04:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/04/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5,449, frees: 4,489, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/04/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 5,451, frees: 4,491, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/04/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1788,8 +1788,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 05:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/05/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 10,112, frees: 8,192, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/05/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 10,114, frees: 8,194, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/05/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1797,8 +1797,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 06:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/06/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 3,052, frees: 2,409, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/06/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 3,054, frees: 2,411, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/06/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1806,8 +1806,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 07:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/07/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 517, frees: 367, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/07/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 519, frees: 369, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/07/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1815,8 +1815,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 08:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/08/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,429, frees: 1,107, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/08/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,431, frees: 1,109, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/08/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1824,8 +1824,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 09:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/09/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 5,483, frees: 4,246, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/09/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 5,485, frees: 4,248, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/09/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1833,8 +1833,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 10:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/10/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2,311, frees: 1,676, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/10/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 2,313, frees: 1,678, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/10/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1842,8 +1842,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 11:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/11/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 6,062, frees: 4,748, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/11/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 6,064, frees: 4,750, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/11/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1851,8 +1851,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 12:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/12/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,584, frees: 1,323, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/12/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,586, frees: 1,325, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/12/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1860,8 +1860,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 13:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/13/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,336, frees: 1,107, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/13/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,338, frees: 1,109, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/13/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1869,8 +1869,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 14:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/14/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,206, frees: 973, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/14/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,208, frees: 975, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/14/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1878,8 +1878,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 15:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/15/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 895, frees: 768, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/15/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 897, frees: 770, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/15/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1887,8 +1887,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 16:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/16/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 456, frees: 347, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/16/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 458, frees: 349, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/16/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1896,8 +1896,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 17:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/17/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 363, frees: 281, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/17/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 365, frees: 283, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/17/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1905,8 +1905,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 18:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/18/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,005, frees: 779, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/18/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,007, frees: 781, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/18/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1914,8 +1914,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 19:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/19/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,488, frees: 1,258, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/19/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,490, frees: 1,260, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/19/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1923,8 +1923,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 20:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/20/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,378, frees: 1,147, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/20/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,380, frees: 1,149, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/20/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1932,8 +1932,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 21:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/21/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 671, frees: 544, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/21/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 673, frees: 546, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/21/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1941,8 +1941,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 22:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/22/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,210, frees: 990, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/22/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,212, frees: 992, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/22/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1950,8 +1950,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 23:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/23/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,104, frees: 938, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/23/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,106, frees: 940, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/23/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1959,8 +1959,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 24:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/24/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 871, frees: 702, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/24/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 873, frees: 704, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/24/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1968,8 +1968,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 25:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/25/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2,509, frees: 2,096, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/25/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 2,511, frees: 2,098, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/25/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1977,8 +1977,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 26:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/26/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,769, frees: 1,442, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/26/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,771, frees: 1,444, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/26/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1986,8 +1986,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 27:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/27/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 653, frees: 557, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/27/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 655, frees: 559, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/27/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -1995,8 +1995,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 28:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/28/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,682, frees: 1,427, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/28/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,684, frees: 1,429, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/28/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -2004,8 +2004,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 29:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/29/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 1,703, frees: 1,479, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/29/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 1,705, frees: 1,481, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/29/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -2013,8 +2013,8 @@ EXECUTANDO O VALGRIND EM CADA CASO:
  - Resultado para o trilha.txt: Ok! Peso: 1.5
  - Pasta main / Caso 30:
  - Arquivo de output gerado: Resultados/Aline/main/Casos/30/result_valgrind.txt.
- - Valgrind: Incorreto! allocs: 2,218, frees: 1,796, errors: 3 | Desconto do valgrind 30.00%
- - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/30/saida/estatisticas.txt, considerando resultado incorreto!
+ - Valgrind: Incorreto! allocs: 2,220, frees: 1,798, errors: 3 | Desconto do valgrind 30.00%
+ - Resultado para o estatisticas.txt: Ok! Peso: 1.5
  - Resultado para o inicializacao.txt: Ok! Peso: 1.0
  - O aluno não gerou o arquivo de saída Resultados/Aline/main/Casos/30/saida/ranking.txt, considerando resultado incorreto!
  - Resultado para o resumo.txt: Ok! Peso: 1.5
@@ -2043,9 +2043,9 @@ Nome 0: Aline
  - Pasta tMovimento (peso 0.5): 180 resultados corretos de 180 / Nota .50
  - Pasta tTunel (peso 0.5): 180 resultados corretos de 180 / Nota .50
  - Pasta tPosicao (peso 0.5): 180 resultados corretos de 180 / Nota .50
- - Pasta completo (peso 0.0): 120 resultados corretos de 180 / Nota 0
- - Pasta main (peso 3.5): 120 resultados corretos de 180 / Nota 1.71
- - Nota Final Aline: 8.21
+ - Pasta completo (peso 0.0): 150 resultados corretos de 180 / Nota 0
+ - Pasta main (peso 3.5): 150 resultados corretos de 180 / Nota 2.08
+ - Nota Final Aline: 8.58
 
 ----------------------------------------------------------------------------
 

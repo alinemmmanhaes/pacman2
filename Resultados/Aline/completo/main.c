@@ -150,4 +150,7 @@ int main(int argc, char * argv[]){
 
     resumo = Resumo(jogo->pacman, argv[1]);
     SalvaTrilhaPacman(jogo->pacman);
+    Estatisticas(jogo->pacman);
+    
+    return 0;
 }

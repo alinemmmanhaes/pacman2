@@ -54,3 +54,19 @@ tMovimento** Resumo(tPacman* pacman, const char* diretorio){
     return resumo;
 }
 
+void Estatisticas(tPacman* pacman){
+    FILE * pEstatistica;
+    char direstatistica[1000];
+    sprintf(direstatistica, "estatisticas.txt");
+    pEstatistica = fopen(direstatistica, "w");
+
+    fprintf(pEstatistica, "Numero de movimentos: %d\n", ObtemNumeroAtualMovimentosPacman(pacman));
+    fprintf(pEstatistica, "Numero de movimentos sem pontuar: %d\n", ObtemNumeroMovimentosSemPontuarPacman(pacman));
+    fprintf(pEstatistica, "Numero de colisoes com parede: %d\n", ObtemNumeroColisoesParedePacman(pacman));
+    fprintf(pEstatistica, "Numero de movimentos para baixo: %d\n", ObtemNumeroMovimentosBaixoPacman(pacman));
+    fprintf(pEstatistica, "Numero de movimentos para cima: %d\n", ObtemNumeroMovimentosCimaPacman(pacman));
+    fprintf(pEstatistica, "Numero de movimentos para esquerda: %d\n", ObtemNumeroMovimentosEsquerdaPacman(pacman));
+    fprintf(pEstatistica, "Numero de movimentos para direita: %d\n", ObtemNumeroMovimentosDireitaPacman(pacman));
+
+    fclose(pEstatistica);
+}
