@@ -7,6 +7,13 @@
 #include "tMovimento.h"
 #include "tPacman.h"
 
+typedef struct tRanking{
+    char mov;
+    int frutas;
+    int parede;
+    int numero;
+} tRanking;
+
 /**
  * Gera conteudo do arquivo inicializacao.txt
  * Imprime o mapa e informa a posicao inicial do pacman.
@@ -18,5 +25,7 @@ tPosicao* Inicializacao(const char* diretorio, tMapa* mapa);
 tMovimento** Resumo(tPacman* pacman, const char* diretorio);
 
 void Estatisticas(tPacman* pacman);
+
+void Ranking(tPacman* pacman);
 
 #endif

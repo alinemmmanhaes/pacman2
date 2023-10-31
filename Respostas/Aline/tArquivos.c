@@ -70,3 +70,28 @@ void Estatisticas(tPacman* pacman){
 
     fclose(pEstatistica);
 }
+
+void Ranking(tPacman* pacman){
+    tRanking* ranking = malloc(4*sizeof(tRanking));
+    char op;
+    int indice = -1, fruta = -1, parede = -1, total = -1;
+
+    ranking[0].mov = 'a';
+    ranking[0].frutas = ObtemNumeroFrutasComidasEsquerdaPacman(pacman);
+    ranking[0].parede = ObtemNumeroColisoesParedeEsquerdaPacman(pacman);
+    ranking[0].numero = ObtemNumeroMovimentosEsquerdaPacman(pacman);
+    ranking[1].mov = 'd';
+    ranking[1].frutas = ObtemNumeroFrutasComidasDireitaPacman(pacman);
+    ranking[1].parede = ObtemNumeroColisoesParedeDireitaPacman(pacman);
+    ranking[1].numero = ObtemNumeroMovimentosDireitaPacman(pacman);
+    ranking[2].mov = 's';
+    ranking[2].frutas = ObtemNumeroFrutasComidasBaixoPacman(pacman);
+    ranking[2].parede = ObtemNumeroColisoesParedeBaixoPacman(pacman);
+    ranking[2].numero = ObtemNumeroMovimentosBaixoPacman(pacman);
+    ranking[3].mov = 'w';
+    ranking[3].frutas = ObtemNumeroFrutasComidasCimaPacman(pacman);
+    ranking[3].parede = ObtemNumeroColisoesParedeCimaPacman(pacman);
+    ranking[3].numero = ObtemNumeroMovimentosCimaPacman(pacman);
+
+    
+}
