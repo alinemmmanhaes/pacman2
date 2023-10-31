@@ -17,6 +17,16 @@ typedef struct tJogo{
     tMapa* mapa;
 } tJogo;
 
+void DesalocaJogo(tJogo* jogo){
+    DesalocaFantasma(jogo->B);
+    DesalocaFantasma(jogo->P);
+    DesalocaFantasma(jogo->I);
+    DesalocaFantasma(jogo->C);
+    DesalocaPacman(jogo->pacman);
+    DesalocaMapa(jogo->mapa);
+    free(jogo);
+}
+
 void ImprimeEstadoAtual(char comando, tMapa* mapa, tPacman* pacman){
     printf("Estado do jogo apos o movimento '%c':\n", comando);
 
@@ -117,12 +127,13 @@ void JogaJogo(tJogo* jogo){
         printf("Game over!\n");
     }
     printf("Pontuacao final: %d\n", ObtemPontuacaoAtualPacman(jogo->pacman));
+    DesalocaPosicao(anteriorpm);
 }
 
 int main(int argc, char * argv[]){
     tJogo* jogo = malloc(sizeof(tJogo));
     tPosicao* posicaopm = NULL;
-    tMovimento** resumo = NULL;
+    //tMovimento** resumo = NULL;
 
     //Analisa se o diretório foi informado, avisa e finaliza o programa caso não tenha sido
     if(argc <= 1){
@@ -137,7 +148,7 @@ int main(int argc, char * argv[]){
         return 1;
     }
 
-    posicaopm = Inicializacao(argv[1], jogo->mapa);
+    posicaopm = Inicializacao(jogo->mapa);
 
     jogo->pacman = CriaPacman(posicaopm);
     jogo->B = CriaFantasma(jogo->mapa, 'B');
@@ -148,9 +159,14 @@ int main(int argc, char * argv[]){
     CriaTrilhaPacman(jogo->pacman, ObtemNumeroLinhasMapa(jogo->mapa), ObtemNumeroColunasMapa(jogo->mapa));
     JogaJogo(jogo);
 
-    resumo = Resumo(jogo->pacman, argv[1]);
+    //resumo = Resumo(jogo->pacman);
+    Resumo(jogo->pacman);
     SalvaTrilhaPacman(jogo->pacman);
     Estatisticas(jogo->pacman);
+    Ranking(jogo->pacman);
+
+    //DesalocaPosicao(posicaopm);
+    DesalocaJogo(jogo);
     
     return 0;
 }

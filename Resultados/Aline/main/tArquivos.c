@@ -1,6 +1,6 @@
 #include "tArquivos.h"
 
-tPosicao* Inicializacao(const char* diretorio, tMapa* mapa){
+tPosicao* Inicializacao(tMapa* mapa){
     FILE * pInicializacao;
     char dirinicio[1000];
     sprintf(dirinicio, "inicializacao.txt");
@@ -25,7 +25,7 @@ tPosicao* Inicializacao(const char* diretorio, tMapa* mapa){
     return posicao;
 }
 
-tMovimento** Resumo(tPacman* pacman, const char* diretorio){
+void Resumo(tPacman* pacman){
     FILE * pResumo;
     tMovimento** resumo = NULL;
 
@@ -35,23 +35,23 @@ tMovimento** Resumo(tPacman* pacman, const char* diretorio){
 
     resumo = ClonaHistoricoDeMovimentosSignificativosPacman(pacman);
     for(int i=0; i<ObtemNumeroMovimentosSignificativosPacman(pacman); i++){
-        if(resumo[i]->comando == MOV_BAIXO){
+        if(ObtemComandoMovimento(resumo[i]) == MOV_BAIXO){
             comando = 's';
         }
-        else if(resumo[i]->comando == MOV_CIMA){
+        else if(ObtemComandoMovimento(resumo[i]) == MOV_CIMA){
             comando = 'w';
         }
-        else if(resumo[i]->comando == MOV_DIREITA){
+        else if(ObtemComandoMovimento(resumo[i]) == MOV_DIREITA){
             comando = 'd';
         }
-        else if(resumo[i]->comando == MOV_ESQUERDA){
+        else if(ObtemComandoMovimento(resumo[i]) == MOV_ESQUERDA){
             comando = 'a';
         }
-        fprintf(pResumo, "Movimento %d (%c) %s\n", resumo[i]->numeroDoMovimento, comando, resumo[i]->acao);
+        fprintf(pResumo, "Movimento %d (%c) %s\n", ObtemNumeroMovimento(resumo[i]), comando, ObtemAcaoMovimento(resumo[i]));
     }
 
+    DesalocaResumo(resumo, pacman);
     fclose(pResumo);
-    return resumo;
 }
 
 void Estatisticas(tPacman* pacman){
@@ -69,4 +69,100 @@ void Estatisticas(tPacman* pacman){
     fprintf(pEstatistica, "Numero de movimentos para direita: %d\n", ObtemNumeroMovimentosDireitaPacman(pacman));
 
     fclose(pEstatistica);
+}
+
+void Ranking(tPacman* pacman){
+    tRanking* ranking = malloc(4*sizeof(tRanking));
+    char op;
+    int indice = -1, fruta = -1, parede = -1, total = -1;
+
+    ranking[0].mov = 'a';
+    ranking[0].frutas = ObtemNumeroFrutasComidasEsquerdaPacman(pacman);
+    ranking[0].parede = ObtemNumeroColisoesParedeEsquerdaPacman(pacman);
+    ranking[0].numero = ObtemNumeroMovimentosEsquerdaPacman(pacman);
+    ranking[1].mov = 'd';
+    ranking[1].frutas = ObtemNumeroFrutasComidasDireitaPacman(pacman);
+    ranking[1].parede = ObtemNumeroColisoesParedeDireitaPacman(pacman);
+    ranking[1].numero = ObtemNumeroMovimentosDireitaPacman(pacman);
+    ranking[2].mov = 's';
+    ranking[2].frutas = ObtemNumeroFrutasComidasBaixoPacman(pacman);
+    ranking[2].parede = ObtemNumeroColisoesParedeBaixoPacman(pacman);
+    ranking[2].numero = ObtemNumeroMovimentosBaixoPacman(pacman);
+    ranking[3].mov = 'w';
+    ranking[3].frutas = ObtemNumeroFrutasComidasCimaPacman(pacman);
+    ranking[3].parede = ObtemNumeroColisoesParedeCimaPacman(pacman);
+    ranking[3].numero = ObtemNumeroMovimentosCimaPacman(pacman);
+
+    tRanking melhor;
+    FILE* pRanking;
+    char diranking[1000];
+    sprintf(diranking, "ranking.txt");
+    pRanking = fopen(diranking, "w");
+
+    for(int i=0; i<4; i++){
+        melhor.mov = ranking[i].mov;
+        indice = i;
+        melhor.frutas = ranking[i].frutas;
+        melhor.parede = ranking[i].parede;
+        melhor.numero = ranking[i].numero;
+        for(int j=i+1; j<4; j++){
+            if(ranking[j].frutas > melhor.frutas){
+                melhor.mov = ranking[j].mov;
+                indice = j;
+                melhor.frutas = ranking[j].frutas;
+                melhor.parede = ranking[j].parede;
+                melhor.numero = ranking[j].numero;
+            }
+            else if(ranking[j].frutas == melhor.frutas){
+                if(ranking[j].parede < melhor.parede){
+                    melhor.mov = ranking[j].mov;
+                    indice = j;
+                    melhor.frutas = ranking[j].frutas;
+                    melhor.parede = ranking[j].parede;
+                    melhor.numero = ranking[j].numero;
+                }
+                else if(ranking[j].parede == melhor.parede){
+                    if(ranking[j].numero > melhor.numero){
+                        melhor.mov = ranking[j].mov;
+                        indice = j;
+                        melhor.frutas = ranking[j].frutas;
+                        melhor.parede = ranking[j].parede;
+                        melhor.numero = ranking[j].numero;
+                    }
+                    else if(ranking[j].numero == melhor.numero){
+                        if(ranking[j].mov < melhor.mov){
+                            melhor.mov = ranking[j].mov;
+                            indice = j;
+                            melhor.frutas = ranking[j].frutas;
+                            melhor.parede = ranking[j].parede;
+                            melhor.numero = ranking[j].numero;
+                        }
+                    }
+                }
+            }
+        }
+        fprintf(pRanking, "%c,%d,%d,%d\n", melhor.mov, melhor.frutas, melhor.parede, melhor.numero);
+        ranking[indice] = ranking[i];
+        ranking[i] = melhor;
+    }
+
+    DesalocaRanking(ranking);
+    fclose(pRanking);
+}
+
+void DesalocaRanking(tRanking* ranking){
+    if(ranking != NULL){
+        free(ranking);
+    }
+}
+
+void DesalocaResumo(tMovimento** resumo, tPacman* pacman){
+    if(resumo != NULL){
+        for(int i=0; i<ObtemNumeroMovimentosSignificativosPacman(pacman); i++){
+            if(resumo[i] != NULL){
+                DesalocaMovimento(resumo[i]);
+            }
+        }
+        free(resumo);
+    }
 }
