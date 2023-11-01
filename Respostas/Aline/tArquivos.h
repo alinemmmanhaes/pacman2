@@ -20,12 +20,16 @@ typedef struct tRanking{
  * \param diretorio diretorio do arquivo
  * \param mapa ponteiro para mapa do jogo
 */
-tPosicao* Inicializacao(const char* diretorio, tMapa* mapa);
+tPosicao* Inicializacao(tMapa* mapa);
 
-tMovimento** Resumo(tPacman* pacman, const char* diretorio);
+void Resumo(tPacman* pacman);
 
 void Estatisticas(tPacman* pacman);
 
 void Ranking(tPacman* pacman);
+
+void DesalocaRanking(tRanking* ranking);
+
+void DesalocaResumo(tMovimento** resumo, tPacman* pacman);
 
 #endif
