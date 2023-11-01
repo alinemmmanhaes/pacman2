@@ -105,6 +105,7 @@ void JogaJogo(tJogo* jogo){
         }
 
         ImprimeEstadoAtual(comando, jogo->mapa, jogo->pacman);
+        DesalocaPosicao(anteriorpm);
 
         if(caso == 1){
             MataPacman(jogo->pacman);
@@ -127,7 +128,6 @@ void JogaJogo(tJogo* jogo){
         printf("Game over!\n");
     }
     printf("Pontuacao final: %d\n", ObtemPontuacaoAtualPacman(jogo->pacman));
-    DesalocaPosicao(anteriorpm);
 }
 
 int main(int argc, char * argv[]){

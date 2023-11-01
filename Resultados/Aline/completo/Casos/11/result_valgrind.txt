@@ -1,26 +1,15 @@
-==193833== Memcheck, a memory error detector
-==193833== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==193833== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==193833== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/11
-==193833== Parent PID: 193832
-==193833== 
-==193833== 
-==193833== HEAP SUMMARY:
-==193833==     in use at exit: 7,352 bytes in 919 blocks
-==193833==   total heap usage: 4,377 allocs, 3,458 frees, 227,987 bytes allocated
-==193833== 
-==193833== 7,352 bytes in 919 blocks are definitely lost in loss record 1 of 1
-==193833==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==193833==    by 0x10CE63: CriaPosicao (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
-==193833==    by 0x10952B: JogaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
-==193833==    by 0x109A68: main (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
-==193833== 
-==193833== LEAK SUMMARY:
-==193833==    definitely lost: 7,352 bytes in 919 blocks
-==193833==    indirectly lost: 0 bytes in 0 blocks
-==193833==      possibly lost: 0 bytes in 0 blocks
-==193833==    still reachable: 0 bytes in 0 blocks
-==193833==         suppressed: 0 bytes in 0 blocks
-==193833== 
-==193833== For lists of detected and suppressed errors, rerun with: -s
-==193833== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==32861== Memcheck, a memory error detector
+==32861== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==32861== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==32861== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/11
+==32861== Parent PID: 32860
+==32861== 
+==32861== 
+==32861== HEAP SUMMARY:
+==32861==     in use at exit: 0 bytes in 0 blocks
+==32861==   total heap usage: 4,377 allocs, 4,377 frees, 227,987 bytes allocated
+==32861== 
+==32861== All heap blocks were freed -- no leaks are possible
+==32861== 
+==32861== For lists of detected and suppressed errors, rerun with: -s
+==32861== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

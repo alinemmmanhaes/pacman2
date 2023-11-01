@@ -1,26 +1,15 @@
-==199669== Memcheck, a memory error detector
-==199669== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==199669== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==199669== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/06
-==199669== Parent PID: 199668
-==199669== 
-==199669== 
-==199669== HEAP SUMMARY:
-==199669==     in use at exit: 2,960 bytes in 370 blocks
-==199669==   total heap usage: 3,057 allocs, 2,687 frees, 123,488 bytes allocated
-==199669== 
-==199669== 2,960 bytes in 370 blocks are definitely lost in loss record 1 of 1
-==199669==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==199669==    by 0x10CAC7: CriaPosicao (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
-==199669==    by 0x10956B: JogaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
-==199669==    by 0x109AA8: main (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
-==199669== 
-==199669== LEAK SUMMARY:
-==199669==    definitely lost: 2,960 bytes in 370 blocks
-==199669==    indirectly lost: 0 bytes in 0 blocks
-==199669==      possibly lost: 0 bytes in 0 blocks
-==199669==    still reachable: 0 bytes in 0 blocks
-==199669==         suppressed: 0 bytes in 0 blocks
-==199669== 
-==199669== For lists of detected and suppressed errors, rerun with: -s
-==199669== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==37659== Memcheck, a memory error detector
+==37659== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==37659== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==37659== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/06
+==37659== Parent PID: 37658
+==37659== 
+==37659== 
+==37659== HEAP SUMMARY:
+==37659==     in use at exit: 0 bytes in 0 blocks
+==37659==   total heap usage: 3,057 allocs, 3,057 frees, 123,488 bytes allocated
+==37659== 
+==37659== All heap blocks were freed -- no leaks are possible
+==37659== 
+==37659== For lists of detected and suppressed errors, rerun with: -s
+==37659== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

@@ -1,26 +1,15 @@
-==201295== Memcheck, a memory error detector
-==201295== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==201295== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==201295== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/13
-==201295== Parent PID: 201294
-==201295== 
-==201295== 
-==201295== HEAP SUMMARY:
-==201295==     in use at exit: 816 bytes in 102 blocks
-==201295==   total heap usage: 1,341 allocs, 1,239 frees, 60,704 bytes allocated
-==201295== 
-==201295== 816 bytes in 102 blocks are definitely lost in loss record 1 of 1
-==201295==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==201295==    by 0x10CAC7: CriaPosicao (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
-==201295==    by 0x10956B: JogaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
-==201295==    by 0x109AA8: main (in /home/ammmanhaes/pacman2/Resultados/Aline/main/prog)
-==201295== 
-==201295== LEAK SUMMARY:
-==201295==    definitely lost: 816 bytes in 102 blocks
-==201295==    indirectly lost: 0 bytes in 0 blocks
-==201295==      possibly lost: 0 bytes in 0 blocks
-==201295==    still reachable: 0 bytes in 0 blocks
-==201295==         suppressed: 0 bytes in 0 blocks
-==201295== 
-==201295== For lists of detected and suppressed errors, rerun with: -s
-==201295== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==39010== Memcheck, a memory error detector
+==39010== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==39010== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==39010== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/13
+==39010== Parent PID: 39009
+==39010== 
+==39010== 
+==39010== HEAP SUMMARY:
+==39010==     in use at exit: 0 bytes in 0 blocks
+==39010==   total heap usage: 1,341 allocs, 1,341 frees, 60,704 bytes allocated
+==39010== 
+==39010== All heap blocks were freed -- no leaks are possible
+==39010== 
+==39010== For lists of detected and suppressed errors, rerun with: -s
+==39010== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

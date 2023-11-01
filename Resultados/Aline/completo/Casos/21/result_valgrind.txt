@@ -1,26 +1,15 @@
-==196147== Memcheck, a memory error detector
-==196147== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==196147== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==196147== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/21
-==196147== Parent PID: 196146
-==196147== 
-==196147== 
-==196147== HEAP SUMMARY:
-==196147==     in use at exit: 440 bytes in 55 blocks
-==196147==   total heap usage: 460 allocs, 405 frees, 43,076 bytes allocated
-==196147== 
-==196147== 440 bytes in 55 blocks are definitely lost in loss record 1 of 1
-==196147==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==196147==    by 0x10CE63: CriaPosicao (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
-==196147==    by 0x10952B: JogaJogo (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
-==196147==    by 0x109A68: main (in /home/ammmanhaes/pacman2/Resultados/Aline/completo/prog)
-==196147== 
-==196147== LEAK SUMMARY:
-==196147==    definitely lost: 440 bytes in 55 blocks
-==196147==    indirectly lost: 0 bytes in 0 blocks
-==196147==      possibly lost: 0 bytes in 0 blocks
-==196147==    still reachable: 0 bytes in 0 blocks
-==196147==         suppressed: 0 bytes in 0 blocks
-==196147== 
-==196147== For lists of detected and suppressed errors, rerun with: -s
-==196147== ERROR SUMMARY: 1 errors from 1 contexts (suppressed: 0 from 0)
+==34773== Memcheck, a memory error detector
+==34773== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==34773== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==34773== Command: Resultados/Aline/completo/prog Resultados/Aline/completo/Casos/21
+==34773== Parent PID: 34772
+==34773== 
+==34773== 
+==34773== HEAP SUMMARY:
+==34773==     in use at exit: 0 bytes in 0 blocks
+==34773==   total heap usage: 460 allocs, 460 frees, 43,076 bytes allocated
+==34773== 
+==34773== All heap blocks were freed -- no leaks are possible
+==34773== 
+==34773== For lists of detected and suppressed errors, rerun with: -s
+==34773== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
