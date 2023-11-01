@@ -27,8 +27,8 @@ typedef struct tFantasma{
 } tFantasma;
 
 /**
- * Cria o fantasma dinamicamente. Caso dê erro na alocação da estrutura tPacman, 
- * retorna NULL. 
+ * Cria o fantasma dinamicamente.
+ * Caso dê erro na alocação da estrutura tPacman, retorna NULL.
  * Roda o mapa procurando se o fantasma existe.
  * Caso não dê erros, retorna o ponteiro para o tFantasma alocado.
  * \param mapa Ponteiro para tMapa do jogo
@@ -44,8 +44,8 @@ bool ExisteFantasma(tFantasma* fantasma);
 
 /**
  * Funcao para fantasmas que se movem na horizontal.
- * Verifica se o fantasma esta na ponta. 
- * Caso esteja, altera o seu sentido e o move. 
+ * Verifica se o fantasma esta na ponta.
+ * Caso esteja, altera o seu sentido e o move.
  * Caso não esteja, apenas o move.
  * \param fantasma Ponteiro para o tFantasma analisado
  * \param mapa Ponteiro para o tMapa do jogo
@@ -54,8 +54,8 @@ void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa);
 
 /**
  * Funcao para fantasmas que se movem na vertical.
- * Verifica se o fantasma esta na ponta. 
- * Caso esteja, altera o seu sentido e o move. 
+ * Verifica se o fantasma esta na ponta.
+ * Caso esteja, altera o seu sentido e o move.
  * Caso não esteja, apenas o move.
  * \param fantasma Ponteiro para o tFantasma analisado
  * \param mapa Ponteiro para o tMapa do jogo
@@ -104,10 +104,6 @@ tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma);
  * \param fantasma Ponteiro para o tFantasma analisado
 */
 tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
-
-void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm, COMANDO comando);
-
-void RemovePacManMapa(tMapa* mapa, tPacman* pacman);
 
 /**
  * Caso o fantasma seja diferente de NULL, libera o espaço
