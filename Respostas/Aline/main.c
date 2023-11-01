@@ -75,28 +75,28 @@ void JogaJogo(tJogo* jogo){
 
         AtualizaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm, acao);
 
-        resp = MorreuPacman(jogo->pacman, jogo->mapa, jogo->B, anteriorpm);
+        resp = ColidiuFantasmaPacman(jogo->pacman, jogo->mapa, jogo->B, anteriorpm);
         if(resp == 1 || resp == 2){
             caso = 1;
         }
         if(resp == 2){
             RemovePacManMapa(jogo->mapa, jogo->pacman);
         }
-        resp = MorreuPacman(jogo->pacman, jogo->mapa, jogo->C, anteriorpm);
+        resp = ColidiuFantasmaPacman(jogo->pacman, jogo->mapa, jogo->C, anteriorpm);
         if(resp == 1 || resp == 2){
             caso = 1;
         }
         if(resp == 2){
             RemovePacManMapa(jogo->mapa, jogo->pacman);
         }
-        resp = MorreuPacman(jogo->pacman, jogo->mapa, jogo->I, anteriorpm);
+        resp = ColidiuFantasmaPacman(jogo->pacman, jogo->mapa, jogo->I, anteriorpm);
         if(resp == 1 || resp == 2){
             caso = 1;
         }
         if(resp == 2){
             RemovePacManMapa(jogo->mapa, jogo->pacman);
         }
-        resp = MorreuPacman(jogo->pacman, jogo->mapa, jogo->P, anteriorpm);
+        resp = ColidiuFantasmaPacman(jogo->pacman, jogo->mapa, jogo->P, anteriorpm);
         if(resp == 1 || resp == 2){
             caso = 1;
         }

@@ -87,7 +87,7 @@ void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa){
     }
 }
 
-int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM){
+int ColidiuFantasmaPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM){
     if(ExisteFantasma(fantasma)){
         if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), ObtemPosicaoPacman(pacman))){
             MataPacman(pacman);
@@ -95,7 +95,6 @@ int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* po
         }
         else if(SaoIguaisPosicao(ObtemPosicaoAnteriorFantasma(fantasma), ObtemPosicaoPacman(pacman))){
             if(SaoIguaisPosicao(ObtemPosicaoFantasma(fantasma), posicaoanteriorPM)){
-                //TiraPacManMapa();
                 MataPacman(pacman);
                 return 2;
             }
