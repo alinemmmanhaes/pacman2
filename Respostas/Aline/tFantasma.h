@@ -62,10 +62,20 @@ void AndaFantasmaHorizontal(tFantasma* fantasma, tMapa* mapa);
 */
 void AndaFantasmaVertical(tFantasma* fantasma, tMapa* mapa);
 
-int MorreuPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
+/**
+ * Verifica se o fantasma e o pacman colidiram analisando suas posicoes.
+ * Retorna 1 se os dois estiverem na mesma posicao.
+ * Retorna 2 se eles tiverem se cruzado.
+ * Retorna 0 se nenhuma das duas opcoes ocorreu.
+ * \param pacman Ponteiro para o tPacman analisado
+ * \param mapa Ponteiro para o tMapa analisado
+ * \param fantasma Ponteiro para o tFantasma analisado
+ * \param posicaoanteriorPM Ponteiro para a posicao do pacman antes da jogada
+*/
+int ColidiuFantasmaPacman(tPacman* pacman, tMapa* mapa, tFantasma* fantasma, tPosicao* posicaoanteriorPM);
 
 /**
- * Verifica se o fantasma f estava em cima de uma posicao de comida na ultima rodada.
+ * Verifica se o fantasma estava em cima de uma posicao de comida na ultima rodada.
  * Retorna 1 caso tenha comida e 0 caso nao.
  * \param fantasma Ponteiro para o tFantasma analisado
 */
@@ -89,6 +99,10 @@ char ObtemNomeFantasma(tFantasma* fantasma);
 */
 tPosicao* ObtemPosicaoFantasma(tFantasma* fantasma);
 
+/**
+ * Retorna a posicao anterior do fantasma (posicao da jogada anterior).
+ * \param fantasma Ponteiro para o tFantasma analisado
+*/
 tPosicao* ObtemPosicaoAnteriorFantasma(tFantasma* fantasma);
 
 void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pm, tMapa* mapa, tPosicao* anteriorpm, COMANDO comando);
