@@ -1,8 +1,17 @@
 main.c: In function ‘JogaJogo’:
-main.c:33:30: warning: variable ‘pontosantes’ set but not used [-Wunused-but-set-variable]
-   33 |     int resp = -1, caso = 0, pontosantes = -1;
+main.c:43:30: warning: variable ‘pontosantes’ set but not used [-Wunused-but-set-variable]
+   43 |     int resp = -1, caso = 0, pontosantes = -1;
       |                              ^~~~~~~~~~~
-main.c: In function ‘main’:
-main.c:125:18: warning: variable ‘resumo’ set but not used [-Wunused-but-set-variable]
-  125 |     tMovimento** resumo = NULL;
-      |                  ^~~~~~
+tArquivos.c: In function ‘Ranking’:
+tArquivos.c:77:47: warning: unused variable ‘total’ [-Wunused-variable]
+   77 |     int indice = -1, fruta = -1, parede = -1, total = -1;
+      |                                               ^~~~~
+tArquivos.c:77:34: warning: unused variable ‘parede’ [-Wunused-variable]
+   77 |     int indice = -1, fruta = -1, parede = -1, total = -1;
+      |                                  ^~~~~~
+tArquivos.c:77:22: warning: unused variable ‘fruta’ [-Wunused-variable]
+   77 |     int indice = -1, fruta = -1, parede = -1, total = -1;
+      |                      ^~~~~
+tArquivos.c:76:10: warning: unused variable ‘op’ [-Wunused-variable]
+   76 |     char op;
+      |          ^~

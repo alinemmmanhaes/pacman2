@@ -1,36 +1,15 @@
-==42786== Memcheck, a memory error detector
-==42786== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==42786== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==42786== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/24
-==42786== Parent PID: 42785
-==42786== 
-==42786== 
-==42786== HEAP SUMMARY:
-==42786==     in use at exit: 4,877 bytes in 169 blocks
-==42786==   total heap usage: 873 allocs, 704 frees, 43,051 bytes allocated
-==42786== 
-==42786== 680 bytes in 85 blocks are definitely lost in loss record 19 of 24
-==42786==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==42786==    by 0x10C1FD: CriaPosicao (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786==    by 0x1094ED: JogaJogo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786==    by 0x109A34: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786== 
-==42786== 1,224 (144 direct, 1,080 indirect) bytes in 1 blocks are definitely lost in loss record 23 of 24
-==42786==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==42786==    by 0x10BA88: ClonaHistoricoDeMovimentosSignificativosPacman (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786==    by 0x109CFF: Resumo (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786==    by 0x109A52: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786== 
-==42786== 2,973 (48 direct, 2,925 indirect) bytes in 1 blocks are definitely lost in loss record 24 of 24
-==42786==    at 0x4848899: malloc (in /usr/libexec/valgrind/vgpreload_memcheck-amd64-linux.so)
-==42786==    by 0x1098C0: main (in /home/alinemanhaes/pacman2/Resultados/Aline/main/prog)
-==42786== 
-==42786== LEAK SUMMARY:
-==42786==    definitely lost: 872 bytes in 87 blocks
-==42786==    indirectly lost: 4,005 bytes in 82 blocks
-==42786==      possibly lost: 0 bytes in 0 blocks
-==42786==    still reachable: 0 bytes in 0 blocks
-==42786==         suppressed: 0 bytes in 0 blocks
-==42786== 
-==42786== For lists of detected and suppressed errors, rerun with: -s
-==42786== ERROR SUMMARY: 3 errors from 3 contexts (suppressed: 0 from 0)
+==41115== Memcheck, a memory error detector
+==41115== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==41115== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==41115== Command: Resultados/Aline/main/prog Resultados/Aline/main/Casos/24
+==41115== Parent PID: 41114
+==41115== 
+==41115== 
+==41115== HEAP SUMMARY:
+==41115==     in use at exit: 0 bytes in 0 blocks
+==41115==   total heap usage: 876 allocs, 876 frees, 47,683 bytes allocated
+==41115== 
+==41115== All heap blocks were freed -- no leaks are possible
+==41115== 
+==41115== For lists of detected and suppressed errors, rerun with: -s
+==41115== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

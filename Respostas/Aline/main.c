@@ -105,6 +105,7 @@ void JogaJogo(tJogo* jogo){
         }
 
         ImprimeEstadoAtual(comando, jogo->mapa, jogo->pacman);
+        DesalocaPosicao(anteriorpm);
 
         if(caso == 1){
             MataPacman(jogo->pacman);
