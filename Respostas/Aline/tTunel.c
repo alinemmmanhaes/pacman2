@@ -13,6 +13,7 @@ tTunel* CriaTunel(int linhaAcesso1, int colunaAcesso1, int linhaAcesso2, int col
 }
 
 bool EntrouTunel(tTunel* tunel, tPosicao* posicao){
+    //verifica se a posicao passada por parametro corresponde a uma das duas pontas do tunel
     if(SaoIguaisPosicao(tunel->acesso1, posicao) || SaoIguaisPosicao(tunel->acesso2, posicao)){
         return true;
     }
@@ -20,6 +21,7 @@ bool EntrouTunel(tTunel* tunel, tPosicao* posicao){
 }
 
 void LevaFinalTunel(tTunel* tunel, tPosicao* posicao){
+    //se estiver sobre o tunel, altera a posicao em que estah para a da ponta oposta
     if(EntrouTunel(tunel, posicao)){
         if(SaoIguaisPosicao(tunel->acesso1, posicao)){
             *posicao = *(tunel->acesso2);

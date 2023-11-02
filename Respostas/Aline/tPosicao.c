@@ -31,6 +31,7 @@ void AtualizaPosicao(tPosicao* posicaoAtual, tPosicao* posicaoNova){
 }
 
 bool SaoIguaisPosicao(tPosicao* posicao1, tPosicao* posicao2){
+    //compara as linhas e colunas das posicoes 1 e 2
     if(posicao1->coluna == posicao2->coluna && posicao1->linha == posicao2->linha){
         return true;
     }
