@@ -5,7 +5,7 @@
 
 tMovimento* CriaMovimento(int numeroDoMovimento, COMANDO comando, const char* acao){
     tMovimento * movimento = malloc(sizeof(tMovimento));
-
+    //aloca movimento dinamicamente e passa as informacoes dos parametros pro tMovimento
     movimento->numeroDoMovimento = numeroDoMovimento;
     movimento->comando = comando;
     strcpy(movimento->acao, acao);

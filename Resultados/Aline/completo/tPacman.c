@@ -60,7 +60,14 @@ int EstaVivoPacman(tPacman* pacman){
 }
 
 void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
+    //clona a posicao do pacman para fazer alteracoes iniciais na posicao clonada
     tPosicao *pacman2 = ClonaPosicao(ObtemPosicaoPacman(pacman));
+
+    //para cada movimento, move a posicao clonada de acordo com o movimento
+    //analisa se encontrou paredes. caso haja, incrementa o numero de colisoes e nao atualiza a posicao do pacman
+    //analisa se encontrou comida. caso tenha, incrementa o numero de comida, a atualiza no mapa para ' ' e atualiza posicao do pacman
+    //se nao ocorrer nada acima, apenas atualiza a posicao do pacman com a do clone
+    //insere movimentos significativos quando necessario
     if(comando == MOV_ESQUERDA){
         pacman->nMovimentosEsquerda++;
         pacman2->coluna--;
@@ -77,7 +84,7 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         else{
             AtualizaPosicao(ObtemPosicaoPacman(pacman), pacman2);
         }
-        pacman2->coluna++;
+        pacman2->coluna++; //retorna posicao clonada para a original para posterior analise de tunel
     }
     else if(comando == MOV_DIREITA){
         pacman->nMovimentosDireita++;
@@ -133,9 +140,15 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
         }
         pacman2->linha--;
     }
+
+    //analisa a presenca de tunel no mapa
+    //caso haja, ve se foi acessado
     if(PossuiTunelMapa(mapa)){
+        //verifica se o pacman alterou de posicao da rodada anterior para essa. so verifica se acessou tunel caso as posicoes sejam diferentes
         if(!SaoIguaisPosicao(pacman2, ObtemPosicaoPacman(pacman))){
             if(AcessouTunelMapa(mapa, ObtemPosicaoPacman(pacman))){
+                //atualiza a trilha antes de alterar a posicao do pacman, que entrarah no tunel
+                //e posteriormente entra no tunel (leva pacman ao outro lado do tunel)
                 AtualizaTrilhaPacman(pacman);
                 EntraTunelMapa(mapa, pacman->posicaoAtual);
             }
@@ -146,7 +159,7 @@ void MovePacman(tPacman* pacman, tMapa* mapa, COMANDO comando){
 }
 
 void CriaTrilhaPacman(tPacman* pacman, int nLinhas, int nColunas){
-    if(pacman->trilha == NULL){
+    if(pacman->trilha == NULL){ //inicializa a trilha caso esta seja null, com o numero de linhas e colunas passados
         pacman->trilha = malloc(nLinhas*sizeof(int*));
         int i, j;
         for(i=0; i<nLinhas; i++){
@@ -155,6 +168,7 @@ void CriaTrilhaPacman(tPacman* pacman, int nLinhas, int nColunas){
 
         pacman->nLinhasTrilha = nLinhas;
         pacman->nColunasTrilha = nColunas;
+        //inicializa todas as posicoes da trilha como -1, que equivalerah a # na hora de printar
         for(i=0; i<pacman->nLinhasTrilha; i++){
             for(j=0; j<pacman->nColunasTrilha; j++){
                 pacman->trilha[i][j] = -1;
@@ -168,14 +182,16 @@ void AtualizaTrilhaPacman(tPacman* pacman){
     int linha, coluna;
     linha = ObtemLinhaPosicao(posicao);
     coluna = ObtemColunaPosicao(posicao);
+    //atualiza a trilha com o numero atual de movimentos na posicao atual do pacman
     pacman->trilha[linha][coluna] = ObtemNumeroAtualMovimentosPacman(pacman);
 }
 
 void SalvaTrilhaPacman(tPacman* pacman){
     FILE *trilha;
-    char * dirtrilha = "trilha.txt";
+    char * dirtrilha = "trilha.txt"; //gera arquivo trilha.txt
     trilha = fopen(dirtrilha, "w");
     int i, j;
+    //roda a trilha, imprimindo # quando for -1 e o numero do movimento quando nao for -1
     for(i=0; i<pacman->nLinhasTrilha; i++){
         for(j=0; j<pacman->nColunasTrilha; j++){
             if(pacman->trilha[i][j] == -1 && j!=(pacman->nColunasTrilha-1)){ //se a posicao (i,j) for -1, printa "#"
@@ -194,6 +210,7 @@ void SalvaTrilhaPacman(tPacman* pacman){
 void InsereNovoMovimentoSignificativoPacman(tPacman* pacman, COMANDO comando, const char* acao){
     pacman->nMovimentosSignificativos++;
     int i = pacman->nMovimentosSignificativos;
+    //aumenta a qtd de mov significativos e realloca, adicionando o novo movimento
     pacman->historicoDeMovimentosSignificativos = realloc(pacman->historicoDeMovimentosSignificativos, i*sizeof(tMovimento*));
     pacman->historicoDeMovimentosSignificativos[i-1] = CriaMovimento(ObtemNumeroAtualMovimentosPacman(pacman), comando, acao);
 }

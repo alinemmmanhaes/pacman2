@@ -1,15 +1,15 @@
-==85009== Memcheck, a memory error detector
-==85009== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
-==85009== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
-==85009== Command: Resultados/Aline/tMapa/prog Resultados/Aline/tMapa/Casos/16
-==85009== Parent PID: 85008
-==85009== 
-==85009== 
-==85009== HEAP SUMMARY:
-==85009==     in use at exit: 0 bytes in 0 blocks
-==85009==   total heap usage: 8,407 allocs, 8,407 frees, 115,199 bytes allocated
-==85009== 
-==85009== All heap blocks were freed -- no leaks are possible
-==85009== 
-==85009== For lists of detected and suppressed errors, rerun with: -s
-==85009== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+==312414== Memcheck, a memory error detector
+==312414== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==312414== Using Valgrind-3.18.1 and LibVEX; rerun with -h for copyright info
+==312414== Command: Resultados/Aline/tMapa/prog Resultados/Aline/tMapa/Casos/16
+==312414== Parent PID: 312413
+==312414== 
+==312414== 
+==312414== HEAP SUMMARY:
+==312414==     in use at exit: 0 bytes in 0 blocks
+==312414==   total heap usage: 8,407 allocs, 8,407 frees, 115,199 bytes allocated
+==312414== 
+==312414== All heap blocks were freed -- no leaks are possible
+==312414== 
+==312414== For lists of detected and suppressed errors, rerun with: -s
+==312414== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

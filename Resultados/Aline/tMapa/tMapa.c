@@ -7,7 +7,7 @@
 #include "tMapa.h"
 
 tMapa* CriaMapa(const char* caminhoConfig){
-    tMapa* mapa = malloc(sizeof(tMapa));
+    tMapa* mapa = malloc(sizeof(tMapa)); //aloca mapa dinamicamente
     FILE * pMapa;
     char dirmapa[1000];
     sprintf(dirmapa, "%s/mapa.txt", caminhoConfig);
@@ -15,15 +15,15 @@ tMapa* CriaMapa(const char* caminhoConfig){
     if(!pMapa){
         return NULL;
     }
-
+//inicia a leitura do arquivo mapa.txt
     fscanf(pMapa, "%d\n", &mapa->nMaximoMovimentos);
     mapa->tunel = NULL;
-    
+
     mapa->grid = malloc(sizeof(char*));
     mapa->grid[0] = malloc(sizeof(char));
     int i = 1, j = 0;
     char c;
-    while(1){
+    while(1){ //descobre a quantidade de colunas
         fscanf(pMapa, "%c", &c);
         if(c == '\n'){
             break;
@@ -38,8 +38,8 @@ tMapa* CriaMapa(const char* caminhoConfig){
     j = 0;
     mapa->grid = realloc(mapa->grid, i*sizeof(char*));
     mapa->grid[i-1] = malloc(mapa->nColunas * sizeof(char));
-    while(fscanf(pMapa, "%c", &c) == 1){
-        if(c == '\n'){
+    while(fscanf(pMapa, "%c", &c) == 1){ //descobre a quantidade de linhas
+        if(c == '\n'){ //realloca sempre que ler um '\n', aumentando oo numero de linhas
             i++;
             mapa->grid = realloc(mapa->grid, i*sizeof(char*));
             mapa->grid[i-1] = malloc(mapa->nColunas * sizeof(char));
@@ -50,7 +50,7 @@ tMapa* CriaMapa(const char* caminhoConfig){
             mapa->grid[i-1][j-1] = c;
         }
     }
-    if(c=='\n'){
+    if(c=='\n'){//quando terminar de ler todos o mapa.txt, diminui uma linha no grid, pois esta foi gerada sem necessidade
         i--;
         free(mapa->grid[i]);
         mapa->grid = realloc(mapa->grid, i*sizeof(char*));
@@ -60,6 +60,7 @@ tMapa* CriaMapa(const char* caminhoConfig){
     mapa->nFrutasAtual = 0;
     int flagtunel = 0;
     int p1x = 0, p1y = 0, p2x = 0, p2y = 0;
+    //roda o mapa procurando tunel e contando quantas frutas tem
     for(i=0; i<mapa->nLinhas; i++){
         for(j=0; j<mapa->nColunas; j++){
             if(mapa->grid[i][j] == '*'){
@@ -85,6 +86,7 @@ tMapa* CriaMapa(const char* caminhoConfig){
 
 tPosicao* ObtemPosicaoItemMapa(tMapa* mapa, char item){
     int i, j;
+    //roda mapa procurando o item passado por parametro
     for(i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
         for(j=0; j<ObtemNumeroColunasMapa(mapa); j++){
             if(mapa->grid[i][j] == item){
@@ -111,7 +113,7 @@ char ObtemItemMapa(tMapa* mapa, tPosicao* posicao){
     if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return '\0';
     }
-    return mapa->grid[l][c];
+    return mapa->grid[l][c]; //retorna item da posicao passada por parametro
 }
 
 int ObtemNumeroLinhasMapa(tMapa* mapa){
@@ -140,7 +142,7 @@ bool EncontrouComidaMapa(tMapa* mapa, tPosicao* posicao){
     if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return false;
     }
-    return (ObtemItemMapa(mapa, posicao) == '*');
+    return (ObtemItemMapa(mapa, posicao) == '*'); //retorna se o item da posicao do parametro é igual a comida
 }
 
 bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
@@ -153,7 +155,7 @@ bool EncontrouParedeMapa(tMapa* mapa, tPosicao* posicao){
     if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return false;
     }
-    return (ObtemItemMapa(mapa, posicao) == '#');
+    return (ObtemItemMapa(mapa, posicao) == '#'); //retorna se o item da posicao do parametro é igual a parede
 }
 
 bool AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){
@@ -166,7 +168,7 @@ bool AtualizaItemMapa(tMapa* mapa, tPosicao* posicao, char item){
     if(c >= ObtemNumeroColunasMapa(mapa) || l >= ObtemNumeroLinhasMapa(mapa) || c < 0 || l < 0){
         return false;
     }
-    mapa->grid[l][c] = item;
+    mapa->grid[l][c] = item; //atualiza a posicao (passada por parametro) no mapa com o item (passado por parametro)
     if(mapa->grid[l][c] == item){
         return true;
     }

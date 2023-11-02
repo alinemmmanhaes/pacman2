@@ -1,32 +1,39 @@
 #include "tArquivos.h"
 
 tPosicao* Inicializacao(tMapa* mapa){
-    FILE * pInicializacao;
+    FILE * pInicializacao; //gera arquivo de inicializacao
     char dirinicio[1000];
     sprintf(dirinicio, "inicializacao.txt");
     pInicializacao = fopen(dirinicio, "w");
 
-    tPosicao* posicao = NULL;
+    tPosicao* posicaopm = NULL;
     int x = 0, y = 0;
+    char c;
+    //roda o mapa e o imprime no arquivo
     for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){
         for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
-            fprintf(pInicializacao, "%c", mapa->grid[i][j]);
-            if(mapa->grid[i][j] == '>'){
+            //Cria uma posicao para acessar item da posicao sem usar mapa->grid
+            tPosicao* posicao = CriaPosicao(i, j);
+            c = ObtemItemMapa(mapa, posicao);
+            fprintf(pInicializacao, "%c", c);
+            if(c == '>'){ //armazena a posicao inicial do pacman e suas coordenadas
                 x = i;
                 y = j;
-                posicao = CriaPosicao(i, j);
+                posicaopm = CriaPosicao(i, j);
             }
+            DesalocaPosicao(posicao);
         }
         fprintf(pInicializacao, "\n");
     }
+    //imprime no arquivo a posicao inicial do pacman
     fprintf(pInicializacao, "Pac-Man comecara o jogo na linha %d e coluna %d\n", x+1, y+1);
 
     fclose(pInicializacao);
-    return posicao;
+    return posicaopm; //retorna posicao inicial do pacman
 }
 
 void Resumo(tPacman* pacman){
-    FILE * pResumo;
+    FILE * pResumo; //gera arquivo de resumo
     tMovimento** resumo = NULL;
 
     char diresumo[1000], comando;
@@ -35,6 +42,7 @@ void Resumo(tPacman* pacman){
 
     resumo = ClonaHistoricoDeMovimentosSignificativosPacman(pacman);
     for(int i=0; i<ObtemNumeroMovimentosSignificativosPacman(pacman); i++){
+        //traduz o tipo COMANDO do movimento lido para char
         if(ObtemComandoMovimento(resumo[i]) == MOV_BAIXO){
             comando = 's';
         }
@@ -47,6 +55,7 @@ void Resumo(tPacman* pacman){
         else if(ObtemComandoMovimento(resumo[i]) == MOV_ESQUERDA){
             comando = 'a';
         }
+        //printa movimento significativo no arquivo
         fprintf(pResumo, "Movimento %d (%c) %s\n", ObtemNumeroMovimento(resumo[i]), comando, ObtemAcaoMovimento(resumo[i]));
     }
 
@@ -55,7 +64,7 @@ void Resumo(tPacman* pacman){
 }
 
 void Estatisticas(tPacman* pacman){
-    FILE * pEstatistica;
+    FILE * pEstatistica; //gera arquivo de estatisticas
     char direstatistica[1000];
     sprintf(direstatistica, "estatisticas.txt");
     pEstatistica = fopen(direstatistica, "w");
@@ -72,10 +81,12 @@ void Estatisticas(tPacman* pacman){
 }
 
 void Ranking(tPacman* pacman){
+    //cria vetor de movimentos (tRanking) alocado dinamicamente
     tRanking* ranking = malloc(4*sizeof(tRanking));
     char op;
     int indice = -1, fruta = -1, parede = -1, total = -1;
 
+    //passa as informacoes da cada movimento para o vetor
     ranking[0].mov = 'a';
     ranking[0].frutas = ObtemNumeroFrutasComidasEsquerdaPacman(pacman);
     ranking[0].parede = ObtemNumeroColisoesParedeEsquerdaPacman(pacman);
@@ -94,18 +105,21 @@ void Ranking(tPacman* pacman){
     ranking[3].numero = ObtemNumeroMovimentosCimaPacman(pacman);
 
     tRanking melhor;
-    FILE* pRanking;
+    FILE* pRanking; //gera arquivo de ranking
     char diranking[1000];
     sprintf(diranking, "ranking.txt");
     pRanking = fopen(diranking, "w");
 
+    //ordena os movimentos
     for(int i=0; i<4; i++){
+        //o primeiro movimento analisado é o melhor ate o momento
         melhor.mov = ranking[i].mov;
         indice = i;
         melhor.frutas = ranking[i].frutas;
         melhor.parede = ranking[i].parede;
         melhor.numero = ranking[i].numero;
         for(int j=i+1; j<4; j++){
+            //se a quantidade de frutas (pontos) pegas for maior, esse movimento se torna o novo melhor
             if(ranking[j].frutas > melhor.frutas){
                 melhor.mov = ranking[j].mov;
                 indice = j;
@@ -114,6 +128,7 @@ void Ranking(tPacman* pacman){
                 melhor.numero = ranking[j].numero;
             }
             else if(ranking[j].frutas == melhor.frutas){
+                //se a quantidade de colisoes na parede for menor, esse movimento se torna o novo melhor
                 if(ranking[j].parede < melhor.parede){
                     melhor.mov = ranking[j].mov;
                     indice = j;
@@ -122,6 +137,7 @@ void Ranking(tPacman* pacman){
                     melhor.numero = ranking[j].numero;
                 }
                 else if(ranking[j].parede == melhor.parede){
+                    //se a quantidade de vezes que foi usado for maior, esse movimento se torna o novo melhor
                     if(ranking[j].numero > melhor.numero){
                         melhor.mov = ranking[j].mov;
                         indice = j;
@@ -130,6 +146,7 @@ void Ranking(tPacman* pacman){
                         melhor.numero = ranking[j].numero;
                     }
                     else if(ranking[j].numero == melhor.numero){
+                        //se a letra que representa o mov vier antes na ordem alfabetica, esse movimento se torna o novo melhor
                         if(ranking[j].mov < melhor.mov){
                             melhor.mov = ranking[j].mov;
                             indice = j;
@@ -141,7 +158,9 @@ void Ranking(tPacman* pacman){
                 }
             }
         }
+        //imprime no arquivo o melhor movimento da rodada de ordenacao
         fprintf(pRanking, "%c,%d,%d,%d\n", melhor.mov, melhor.frutas, melhor.parede, melhor.numero);
+        //troca o melhor movimento de lugar com o primeiro movimento analisado
         ranking[indice] = ranking[i];
         ranking[i] = melhor;
     }
