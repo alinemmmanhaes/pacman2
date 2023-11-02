@@ -114,82 +114,7 @@ void ResetaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman*
     }
 }
 
-void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pacman, tMapa* mapa, tPosicao* anteriorpm, COMANDO comando){
-    /*char c;
-    for(int i=0; i<ObtemNumeroLinhasMapa(mapa); i++){ //roda o mapa
-        for(int j=0; j<ObtemNumeroColunasMapa(mapa); j++){
-            //Cria uma posicao para acessar item da posicao sem usar mapa->grid
-            tPosicao* posicao = CriaPosicao(i, j);
-            c = ObtemItemMapa(mapa, posicao);
-            if(c == 'B'){ //analisa se cada um dos fantasmas tinha uma comida embaixo deles
-                if(VerificaComida(B)){ //se sim, coloca a comida de volta na posicao
-                    AtualizaItemMapa(mapa, posicao, '*');
-                    TiraComida(B);
-                }
-                else{ //se nao, coloca um espaco vazio no lugar do fantasma
-                    AtualizaItemMapa(mapa, posicao, ' ');
-                }
-            }
-            else if(c == 'C'){
-                if(VerificaComida(C)){
-                    AtualizaItemMapa(mapa, posicao, '*');
-                    TiraComida(C);
-                }
-                else{
-                    AtualizaItemMapa(mapa, posicao, ' ');
-                }
-            }
-            else if(c == 'I'){
-                if(VerificaComida(I)){
-                    AtualizaItemMapa(mapa, posicao, '*');
-                    TiraComida(I);
-                }
-                else{
-                    AtualizaItemMapa(mapa, posicao, ' ');
-                }
-            }
-            else if(c == 'P'){
-                if(VerificaComida(P)){
-                    AtualizaItemMapa(mapa, posicao, '*');
-                    TiraComida(P);
-                }
-                else{
-                    AtualizaItemMapa(mapa, posicao, ' ');
-                }
-            }
-            else if(c == '>'){
-                if(PossuiTunelMapa(mapa)){ //analisa se o pacman estava em cima de um tunel
-                    if(EntrouTunel(mapa->tunel, anteriorpm)){
-                        AtualizaItemMapa(mapa, posicao, '@'); //se sim, coloca o simbolo do tunel na posicao em que o pacman estava
-                    }
-                    else{
-                        AtualizaItemMapa(mapa, posicao, ' ');
-                    }
-                }
-                else{ //se nao, coloca um espaco vazio no lugar
-                    AtualizaItemMapa(mapa, posicao, ' ');
-                }
-            }
-            DesalocaPosicao(posicao);
-        }
-    }
-
-    //analisa se o pacman pegou alguma fruta devolvida por algum fantasma
-    if(EncontrouComidaMapa(mapa, ObtemPosicaoPacman(pacman))){
-        if(comando == MOV_BAIXO){ //se sim, a contabiliza
-            pacman->nFrutasComidasBaixo++;
-        }
-        else if(comando == MOV_CIMA){
-            pacman->nFrutasComidasCima++;
-        }
-        else if(comando == MOV_ESQUERDA){
-            pacman->nFrutasComidasEsquerda++;
-        }
-        else if(comando == MOV_DIREITA){
-            pacman->nFrutasComidasDireita++;
-        }// e gera um novo movimento significativo
-        InsereNovoMovimentoSignificativoPacman(pacman, comando, "pegou comida");
-    }*/
+void AtualizaMapa(tFantasma* B, tFantasma* C, tFantasma* I, tFantasma* P, tPacman* pacman, tMapa* mapa, tPosicao* anteriorpm){
     //coloca o pacman em sua nova posicao no mapa
     AtualizaItemMapa(mapa, ObtemPosicaoPacman(pacman), '>');
 
@@ -249,6 +174,7 @@ void JogaJogo(tJogo* jogo){
             acao = MOV_CIMA;
         }
 
+        //Retira os fantasmas (e tambem verifica se estava em cima de comida) e o pacman de suas posicoes antigas, resetando o mapa
         ResetaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm);
 
         //Movimenta os personagens do jogo
@@ -259,7 +185,7 @@ void JogaJogo(tJogo* jogo){
         AndaFantasmaVertical(jogo->P, jogo->mapa);
 
         //Atualiza todas as posicoes de fantasmas e pacman no mapa
-        AtualizaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm, acao);
+        AtualizaMapa(jogo->B, jogo->C, jogo->I, jogo->P, jogo->pacman, jogo->mapa, anteriorpm);
 
         //Analisa possiveis casos de colisao do pacman com cada um dos fantasmas
         resp = ColidiuFantasmaPacman(jogo->pacman, jogo->mapa, jogo->B, anteriorpm);
